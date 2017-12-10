@@ -37,12 +37,14 @@ exports.default = function () {
     className: 'jsx-1788676843'
   }, 'Henry Savit'), _react2.default.createElement('nav', {
     className: 'jsx-1788676843'
-  }, _react2.default.createElement('a', { target: '_blank', href: 'https://twitter.com/cantbemorewrong', className: 'jsx-1788676843'
-  }, 'Twitter'), _react2.default.createElement(_prefetch2.default, { href: '/essays' }, _react2.default.createElement('a', {
+  }, _react2.default.createElement(_prefetch2.default, { href: '/about' }, _react2.default.createElement('a', {
     className: 'jsx-1788676843'
-  }, 'Essays')), _react2.default.createElement(_prefetch2.default, { href: '/changelog' }, _react2.default.createElement('a', {
+  }, 'About')), _react2.default.createElement(_prefetch2.default, { href: '/essays' }, _react2.default.createElement('a', {
     className: 'jsx-1788676843'
-  }, 'Changelog'))))), _react2.default.createElement(_style2.default, {
+  }, 'Essays')), _react2.default.createElement(_prefetch2.default, { href: '/bookshelf' }, _react2.default.createElement('a', {
+    className: 'jsx-1788676843'
+  }, 'Bookshelf')), _react2.default.createElement('a', { target: '_blank', href: 'https://twitter.com/cantbemorewrong', className: 'jsx-1788676843'
+  }, 'Twitter')))), _react2.default.createElement(_style2.default, {
     styleId: '1788676843',
     css: ['.home.jsx-1788676843{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;z-index:-1;}', '.main.jsx-1788676843{-webkit-flex:none;-ms-flex:none;flex:none;text-align:center;}', 'h1.jsx-1788676843{font-size:14px;font-weight:normal;}', 'nav.jsx-1788676843{margin-top:20px;}', 'a.jsx-1788676843{display:inline-block;margin:0 15px;text-decoration:none;}']
   }));

@@ -12,9 +12,10 @@ export default () => (
       <div className="main">
         <h1>Henry Savit</h1>
         <nav>
-          <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>
+          <Link href="/about"><a>About</a></Link>
           <Link href="/essays"><a>Essays</a></Link>
-          <Link href="/changelog"><a>Changelog</a></Link>
+          <Link href="/bookshelf"><a>Bookshelf</a></Link>
+          <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>
         </nav>
       </div>
     </div>

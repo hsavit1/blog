@@ -10,11 +10,11 @@ import withViews from '../../lib/with-views'
 
 export default withViews(({ views }) => (
   <Post>
-    <Head><title>Why I need this blog</title></Head>
-    <Title>Why I need this blog</Title>
-    <Meta date="December 9th, 2017" views={ views } />
+    <Head><title>No is Not Enough</title></Head>
+    <Title>No is Not Enough</Title>
+    <Meta date="December 13th, 2017" views={ views } />
 
-    <P>Why is that I find writing Facebook posts to be creatively damaging? Why would I want to write something that is instantly seen by all of my friends the minute I post it?</P>
+    {/* <P>Why is that I find writing Facebook posts to be creatively damaging? Why would I want to write something that is instantly seen by all of my friends the minute I post it?</P>
 
     <P>Let's take a few minutes to observe the main existing digital social outlets - Facebook, Twitter, Tumblr, Instagram, Medium, Snapchat, Reddit, Quora. I'll attempt to breakdown why I feel that they are insufficient and what could be done to fill that creative gap.</P>
 
@@ -28,9 +28,7 @@ export default withViews(({ views }) => (
 
     <P>Every one of us has original thoughts (sometimes I find it's easy to think otherwise).</P>
 
-    <TLDR>We can now fine-tune the data exchange with the server.
-    Make sure to handle errors, retry on behalf of the user,
-    sync data on the background and maintain offline caches.</TLDR>
+    <TLDR>.</TLDR> */}
 
   </Post>
 ))

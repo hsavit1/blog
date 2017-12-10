@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _style = require('styled-jsx/style.js');
@@ -23,11 +23,15 @@ var _prefetch2 = _interopRequireDefault(_prefetch);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function (_ref) {
-  var children = _ref.children;
-  return _react2.default.createElement('div', {
-    className: 'jsx-942610349' + ' ' + 'main'
-  }, children, _react2.default.createElement(_meta2.default, null), _react2.default.createElement(_style2.default, {
-    styleId: '942610349',
-    css: ['.main.jsx-942610349{padding:25px 50px;}', '.logo.jsx-942610349{padding-bottom:50px;}', 'a.jsx-942610349{text-decoration:none;}', '@media (max-width:500px){.main.jsx-942610349{padding:25px 15px;}.logo.jsx-942610349{padding-bottom:20px;}}']
-  }));
+	var children = _ref.children;
+	return _react2.default.createElement('div', {
+		className: 'jsx-4236441216' + ' ' + 'main'
+	}, _react2.default.createElement('div', {
+		className: 'jsx-4236441216' + ' ' + 'logo'
+	}, _react2.default.createElement(_prefetch2.default, { href: '/' }, _react2.default.createElement('a', {
+		className: 'jsx-4236441216'
+	}, 'Home'))), children, _react2.default.createElement(_meta2.default, null), _react2.default.createElement(_style2.default, {
+		styleId: '4236441216',
+		css: ['.main.jsx-4236441216{padding:25px 50px;}', '.logo.jsx-4236441216{padding-bottom:50px;}', 'a.jsx-4236441216{text-decoration:none;}', '@media (max-width:500px){.main.jsx-4236441216{padding:25px 15px;}.logo.jsx-4236441216{padding-bottom:20px;}}']
+	}));
 };

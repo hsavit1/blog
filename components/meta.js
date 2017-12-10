@@ -25,13 +25,13 @@ export default () => (
       }
 
       a {
-        color: #22BAD9;
+        color: #20a3e3;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
       }
 
       a:hover {
         color: #fff;
-        background: #22BAD9;
+        background: #20a3e3;
         text-decoration: none;
       }
 
@@ -41,7 +41,7 @@ export default () => (
       }
 
       #nprogress .bar {
-        background: #22BAD9;
+        background: #20a3e3;
         position: fixed;
         z-index: 1031;
         top: 0;
@@ -56,7 +56,7 @@ export default () => (
         right: 0px;
         width: 100px;
         height: 100%;
-        box-shadow: 0 0 10px #22BAD9, 0 0 5px #22BAD9;
+        box-shadow: 0 0 10px #20a3e3, 0 0 5px #20a3e3;
         opacity: 1.0;
         transform: rotate(3deg) translate(0px, -4px);
       }
