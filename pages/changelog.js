@@ -10,7 +10,7 @@ export default () => (
     </Head>
     <div className="posts">
     <h2>Links to old versions of this blog will go here</h2>
-    <p>12-9-2017: https://savit-blog-ajibtjcjel.now.sh </p>
+    <p>12-9-2017: https://savit-blog-kfihbimykd.now.sh </p>
       {/* {
         posts.map(({ id, date, title }) => (
           <Post 
