@@ -113,14 +113,17 @@ export default withViews(({ views }) => (
 			overarching concept at play here. Social media giants are setting
 			you up to post at a <i>least common denominator</i> comprehension
 			level. You can't pitch your brainiest ideas on Facebook because
-			<br />
-			<UL>
-				<ULI>Nobody will read it if it's too derivative</ULI>
-				<ULI>
-					You'll get looked upon as if you're killing the party that
-					all of your friends are at
-				</ULI>
-			</UL>
+		</P>
+
+		<UL>
+			<ULI>Nobody will read it if it's too derivative</ULI>
+			<ULI>
+				You'll get looked upon as if you're killing the party that all
+				of your friends are at
+			</ULI>
+		</UL>
+
+		<P>
 			Naturally, Facebook has created a cesspool of least common
 			denominator language.
 		</P>
