@@ -10,7 +10,7 @@ export default () => (
     </Head>
     <div className="posts">
     <h2>My about page will go here</h2>
-    <p> I'm going to talk about myself and give some kind of perspective</p>
+    <h4> I'm going to talk about myself and give some kind of perspective</h4>
       {/* {
         posts.map(({ id, date, title }) => (
           <Post 
