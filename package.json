@@ -1,17 +1,17 @@
 {
-  "name": "savit-blog",
-  "description": "savit.com (blog)",
+  "name": "savits-blog",
+  "description": "savits-blog.com",
   "dependencies": {
     "comma-number": "^2.0.0",
-    "firebase": "^4.3.0",
+    "firebase": "^4.8.1",
     "global": "^4.3.2",
     "isomorphic-fetch": "^2.2.1",
     "load-script": "^1.0.0",
-    "next": "^4.1.4",
-    "now": "^8.5.4",
+    "next": "^4.2.1",
+    "now": "^9.0.1",
     "nprogress": "^0.2.0",
-    "react": "^16.1.0",
-    "react-dom": "^16.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-youtube": "^7.4.0"
   },
   "scripts": {
