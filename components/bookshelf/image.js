@@ -33,7 +33,7 @@ export default ({ desc, href, children, wide }) => (
 
 const Image = ({ width, src }) => (
 	<div>
-		<img width={width} src={src} />
+		<img width={width} src={`/static/${src}`} />
 		<style jsx>{`
 			img {
 				width: 180px;

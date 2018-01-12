@@ -34,7 +34,7 @@ export default withViews(({ views }) => (
 			designing and coding. Working in this space and dealing with as many
 			"business minds" as I have dealt with has taught me that most major
 			apps are essentially ads and 21st century marketing tools. These
-			applications are built by companies who's financial blood flow is
+			applications are built by companies whose financial blood flow is
 			sustained by the process of cleverly taking as much from you as
 			possible.
 		</P>
@@ -104,13 +104,13 @@ export default withViews(({ views }) => (
 
 		{/* Personal */}
 		<P>
-			I'm 25. So I'm still maturing a bit... you know, becoming older and
-			wiser. I have a wider lens for looking at the world. As my thoughts
-			become a bit more derivative, I'm finding social media outlets less
-			and less likely to be suitable for my personal needs to distill,
-			concentrate and expressively write. The social <b>junk food</b>{' '}
-			isn't able to provide the nutrients that I need to break down
-			complex concepts.
+			I'm 25 and going through that "I'm getting older and wiser" phase.
+			My lens for looking at the world is wider than it used to be. So my
+			thoughts are becoming a bit more derivative and I'm finding social
+			media outlets less and less likely to be suitable for my personal
+			needs to distill, concentrate and expressively write. The social{' '}
+			<b>junk food</b> isn't able to provide the nutrients that I need to
+			break down complex concepts.
 		</P>
 
 		{/* Personal Revelation */}

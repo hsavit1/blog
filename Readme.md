@@ -5,7 +5,7 @@ This is the blog that powers `savits-blog.com`, built on
 [next.js](https://zeit.co/blog/next) and
 deployed to the cloud via [now](https://zeit.co/now).
 
-Depends on the [savits-blog-views](https://github.com/hsavit1/savits-blog-views) microservice
+Depends on the [savit-blog-views](https://github.com/hsavit1/savit-blog-views) microservice
 for the realtime views display.
 
 ## How to run
@@ -21,23 +21,6 @@ npm run dev
 
 Then head to `http://localhost:3000`. Changes you make to
 components will henceforth be reflected there in realtime.
-
-### Deployment
-
-All that's needed to deploy this blog to the cloud is to
-execute a single command ([install](https://zeit.co/download) it here)
-
-```bash
-now
-```
-
-When I deploy, I get a new instance of the blog at a new, immutable
-URL. When I browse to it and verify it looks ok, I set up an alias
-targetting the production URL `rauchg.com`.
-
-```bash
-now alias <url> rauchg.com
-```
 
 ## Architecture
 
