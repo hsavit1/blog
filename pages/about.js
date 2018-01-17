@@ -8,7 +8,7 @@ import SUBTITLE from '../components/about/subtitle';
 export default () => (
 	<Page>
 		<Head>
-			<title>Changelog</title>
+			<title>About</title>
 		</Head>
 		<div className="about">
 			<TITLE>About me</TITLE>
@@ -17,15 +17,15 @@ export default () => (
 
 			<P>
 				Hey you, thanks for checking out my page. I've built this site
-				as a tool to elucidate on some ideas I've been having.
+				as a tool to elucidate and share some things I've been thinking about.
 			</P>
 
 			<P>
 				On here you'll probably find some musings related to the
 				evolution of cryptocurrencies such as Bitcoin and Ethereum, the
 				purpose of the internet and other design meditations, some
-				technical stuff, or maybe just some laugh worthy material.
-				Actually, only cringeworthy material.
+				technical stuff, or maybe just some laugh-worthy material.
+				Actually, only cringe-worthy material.
 			</P>
 
 			<P>
@@ -34,11 +34,14 @@ export default () => (
 			</P>
 
 			<P>
-				I also created a bookshelf section where you can read some summaries of some things that I really enjoyed reading.
+				There's a bookshelf section where you can read some summaries of some books that I really enjoyed reading.
 			</P>
 
+			<P>
+				I've also decided to dedicate an entire section of my site to breaking down individual cryptocurrencies. The crypto market right now is a total hellscape of understanding and I feel that it is necessary to break it down, whitepaper by whitepaper, coin by coin, if we're going to make any sense of this <a target="_blank" href="https://marymackey.com/wp-content/uploads/2014/11/Pandemonium.jpg">pandemonium</a>. 
+			</P>
 
-      <P>You can find the source for this page on <a target="_blank" href="https://github.com/hsavit1/blog">github</a> </P>
+      <P>You can find the source for this page on <a target="_blank" href="https://github.com/hsavit1/blog">github</a>. I've made it minimalistic for a reason. I want you to focus on the content. As a bonus, the pages render really really fast.</P>
 
 			<P>Anyway, thanks for visiting my page</P> 
       

@@ -40,7 +40,7 @@ export default class Meta extends React.Component {
         }
         <style jsx>{`
           div {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             color: #777;
           }
 

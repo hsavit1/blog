@@ -14,6 +14,7 @@ export default () => (
         <nav>
           <Link href="/about"><a>About</a></Link>
           <Link href="/essays"><a>Essays</a></Link>
+          <Link href="/cryptos"><a>Cryptos</a></Link>
           <Link href="/bookshelf"><a>Bookshelf</a></Link>
           <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>
         </nav>
