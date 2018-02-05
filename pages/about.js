@@ -11,41 +11,46 @@ export default () => (
 			<title>About</title>
 		</Head>
 		<div className="about">
-			<TITLE>About me</TITLE>
+			<TITLE>About</TITLE>
 
-			<SUBTITLE>Behold, my webpage</SUBTITLE>
+			<SUBTITLE>Behold, my Webpage</SUBTITLE>
 
 			<P>
 				Hey you, thanks for checking out my page. I've built this site
-				as a tool to elucidate and share some things I've been thinking about.
+				as a tool to elucidate and share what I'm thinking.
 			</P>
 
 			<P>
-				On here you'll probably find some musings related to the
+				On here you'll find some longform musings related to the
 				evolution of cryptocurrencies such as Bitcoin and Ethereum, the
 				purpose of the internet and other design meditations, some
-				technical stuff, or maybe just some laugh-worthy material.
-				Actually, only cringe-worthy material.
+				technical stuff, and some satire. Most likely political satire.
 			</P>
 
 			<P>
 				You might as well check out some of my essays. Maybe you’ll find
-				something useful. Maybe not?! You'll have to read to find out.
+				something useful about our complicated relationship with technology. Maybe you'll even learn something. Or maybe it'll take you to a dark, dark, dark place. You'll just have to read to find out.
 			</P>
 
 			<P>
-				There's a bookshelf section where you can read some summaries of some books that I really enjoyed reading.
+				The crypto market right now is a hellscape of misunderstanding and I feel that it is necessary to attempt to break it down - that could be by assessing whitepapers, consensus mechanisms, or even the big ideas and visions - if we're going to make any sense of this <a target="_blank" href="https://marymackey.com/wp-content/uploads/2014/11/Pandemonium.jpg">pandemonium</a> and emerge with something of real value. That's why I dedicated a whole section of my site to it.
 			</P>
 
 			<P>
-				I've also decided to dedicate an entire section of my site to breaking down individual cryptocurrencies. The crypto market right now is a total hellscape of understanding and I feel that it is necessary to break it down, whitepaper by whitepaper, coin by coin, if we're going to make any sense of this <a target="_blank" href="https://marymackey.com/wp-content/uploads/2014/11/Pandemonium.jpg">pandemonium</a>. 
+				Zooming out of the world of crypto politics is the world of real politics, where things have turned so insane that satire has become my preferred method of assessment. 
 			</P>
 
-      <P>You can find the source for this page on <a target="_blank" href="https://github.com/hsavit1/blog">github</a>. I've made it minimalistic for a reason. I want you to focus on the content. As a bonus, the pages render really really fast.</P>
+			<P>
+				Lastly, there's a bookshelf section where you can read some book summaries. This is a work in progress. Book reviews take a long time.
+			</P>
 
-			<P>Anyway, thanks for visiting my page</P> 
-      
-      <P>Cheers to you</P>
+      <P>You can find the source for this page on <a target="_blank" href="https://github.com/hsavit1/blog">github</a>. I've made it minimalist for a reason. I want you to focus on the content. As a bonus, the pages render pretty fast.</P>
+
+			<P>
+				If you like what you see, for now, you can message me on Twitter. Eventually I'll build something better.
+			</P>
+
+			<P>Once again, thanks for visiting. And cheers, to you.</P>       
 		</div>
 
     <style jsx>{`

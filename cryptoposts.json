@@ -1,9 +1,19 @@
 {
     "posts": [
       {
+        "id": "many-thin-protocols",
+        "date": "February 4, 2018",
+        "title": "Alternative Perspective: Many Thin Protocols (~6 min)"
+      },
+      {
+        "id": "fat-protocols",
+        "date": "January 28, 2018",
+        "title": "Reflection: Fat Protocols (~4 min)"
+      },
+      {
         "id": "our-cryptocurrency-hellscape",
         "date": "January 16, 2018",
-        "title": "Our Cryptocurrency Hellspace"
+        "title": "Our Cryptocurrency Hellscape (~6 min)"
       }
     ]
   }

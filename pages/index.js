@@ -13,9 +13,10 @@ export default () => (
         <h1>Henry Savit</h1>
         <nav>
           <Link href="/about"><a>About</a></Link>
-          <Link href="/essays"><a>Essays</a></Link>
-          <Link href="/cryptos"><a>Cryptos</a></Link>
-          <Link href="/bookshelf"><a>Bookshelf</a></Link>
+          <Link href="/longform"><a>Essays</a></Link>
+          <Link href="/satire"><a>Satire</a></Link>
+          <Link href="/cryptos"><a>Crypto</a></Link>
+          <Link href="/bookshelf"><a>Bookshelf (WIP)</a></Link>
           <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>
         </nav>
       </div>
@@ -45,12 +46,14 @@ export default () => (
       }
 
       nav {
+        display: flex;
+        flex-direction: column;
         margin-top: 20px;
       }
 
       a {
         display: inline-block;
-        margin: 0 15px;
+        margin:15px;
         text-decoration: none;
       }
     `}</style>

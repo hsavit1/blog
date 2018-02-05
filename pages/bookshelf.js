@@ -40,7 +40,7 @@ const Book = ({ id, date, title, image }) => (
 	<div className="book">
 		<span className="date">{date}</span>
 
-		<Link href={`/${new Date(date).getFullYear()}/${id}`}>
+		<Link href={`/${new Date(date).getFullYear()}/bookshelf/${id}`}>
 			<a>
 				<Image src={image} className="image"/>
 			</a>
@@ -48,20 +48,16 @@ const Book = ({ id, date, title, image }) => (
 
 		<style jsx>{`
 			.book {
-				margin-bottom: 10px;
+				margin-bottom: 50px;
 			}
 
-
-            .image {
-                width: 200;
-                height: 300;
-            }
-
 			.date {
-				display: inline-block;
-				width: 140px;
-				text-align: right;
-				margin-right: 30px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 160px;
+				// text-align: right;
+				margin-right: 60px;
 				color: #999;
 			}
 

@@ -1,14 +1,14 @@
 import Page from '../layouts/main'
 import Link from 'next/prefetch'
-import { posts } from '../cryptoposts'
+import { posts } from '../posts'
 import Head from 'next/head'
 
 export default () => (
   <Page>
     <Head>
-      <title>Cryptos</title>
+      <title>Long Form</title>
     </Head>
-    <div className="cryptos">
+    <div className="posts">
       {
         posts.map(({ id, date, title }) => (
           <Post 
@@ -26,7 +26,7 @@ export default () => (
 const Post = ({ id, date, title }) => (
   <div className="post">
     <span className="date">{ date }</span>
-    <Link href={`/${new Date(date).getFullYear()}/crypto/${id}`}><a>{ title }</a></Link>
+    <Link href={`/${new Date(date).getFullYear()}/longform/${id}`}><a>{ title }</a></Link>
 
     <style jsx>{`
       .post {

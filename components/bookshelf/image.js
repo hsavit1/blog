@@ -36,10 +36,36 @@ const Image = ({ width, src }) => (
 		<img width={width} src={`/static/${src}`} />
 		<style jsx>{`
 			img {
-				width: 180px;
-				height: 300px;
-				margin: 15px 15px 0 0;
+				width: 160px;
+				height: 230px;
+				margin: 10px 15px 0 0;
+				box-shadow: 5px 10px 10px -5px grey;
+				// box-shadow: 0px 2px 4px 0px rgba(#000, .1), 0px 9px 20px 0px rgba(#000, .25);
 			}
+
+			img:hover {
+				animation-name: pulse;
+				animation-duration: 1s;
+			}
+
+			@keyframes pulse {
+				from {
+					transform: scale3d(1, 1, 1);
+				}
+			
+				50% {
+					transform: scale3d(1.05, 1.05, 1.05);
+				}
+			
+				to {
+					transform: scale3d(1, 1, 1);
+				}
+			}
+			
+			.pulse {
+				animation-name: pulse;
+			}
+
 		`}</style>
 	</div>
 );
