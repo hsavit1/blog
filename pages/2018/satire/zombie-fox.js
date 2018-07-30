@@ -24,18 +24,14 @@ export default withViews(({ views }) => (
 
 		<Meta date="July 30th, 2018" views={views} />
 
-        <Figure >
-            <Image src="/static/marco-rubio.jpg" width={300}/>
+        <Figure desc="Zombie Hitler made a brief appearance on yesterday's panel / Getty">
+            <Image src="/static/zombie_hitler.jpg" />
         </Figure>
-        
+
         <P>
             LOS ANGELES -- Regular pundits David Bossie and Alan Dershowitz were unavailable last night as they both had forgotten that they had a signed up for a late poker game with the Satanic Emperor of the Underworld and were dragged out of the newsroom by gargoyles of an interdimensional demonic chamber.
             In a frantic search for a new fresh Trump surrogate on last night's panel, Fox News anchor Sean Hannity was pleased to discover that Zombie Hitler had the night off and was available to speak on the panel on behalf of the 45th President.
         </P>
-
-        <Figure desc="Zombie Hitler made a brief appearance on yesterday's panel / Getty">
-            <Image src="/static/zombie_hitler.jpg" />
-        </Figure>
 
         <P>
             "His speech was a little rusty but that's understandable given that he spent all of those years buried in the ground and that worms were pouring out of his mouth. He's still pretty up to date when it comes to topics like the fake news mainstream media, the insane leftist cult, and border security. He's really an expert. We are happy to hear the voices of outsiders who can speak so lucidly on behalf of the president."
