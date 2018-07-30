@@ -1,9 +1,19 @@
 {
     "posts": [
       {
+        "id": "what-im-buying-in-2018",
+        "date": "February 9, 2018",
+        "title": "Protocol Investing in 2018 (~10 min)"
+      },
+      {
+        "id": "cryptoassets",
+        "date": "February 6, 2018",
+        "title": "Summary of Cryptoassets, by Jack Tartar and Chris Burniske (~10 min)"
+      },
+      {
         "id": "many-thin-protocols",
         "date": "February 4, 2018",
-        "title": "Alternative Perspective: Many Thin Protocols (~6 min)"
+        "title": "Alternative Perspective: Many Thin Protocols (~8 min)"
       },
       {
         "id": "fat-protocols",

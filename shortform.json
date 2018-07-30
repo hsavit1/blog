@@ -1,6 +1,16 @@
 {
     "posts": [  
       {
+        "id": "zombie-fox",
+        "date": "July 30, 2018",
+        "title": "Fox News Host Invites Zombie Hitler to Panel"
+      },
+      {
+        "id": "little-marco",
+        "date": "February 16, 2018",
+        "title": "Little Marco Hires Personal Prayer Trainer"
+      },
+      {
         "id": "report-card",
         "date": "January 18, 2018",
         "title": "Voters demand release of Stable Genius' 3rd grade Report Card"

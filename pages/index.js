@@ -8,6 +8,7 @@ export default () => (
       <title>Henry Savit</title>
     </Head>
 
+  <div>
     <div className="home">
       <div className="main">
         <h1>Henry Savit</h1>
@@ -17,11 +18,25 @@ export default () => (
           <Link href="/satire"><a>Satire</a></Link>
           <Link href="/cryptos"><a>Crypto</a></Link>
           <Link href="/bookshelf"><a>Bookshelf (WIP)</a></Link>
-          <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>
+          <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>        
         </nav>
+
+        <div className="twitter">
+            {/* <TwitterMentionButton 
+              screenName="CantBeMoreWrong" 
+              options={
+                {
+                  size: "large", 
+                }
+              } 
+            /> */}
+        </div>
+
       </div>
+
     </div>
 
+  </div>
     <style jsx>{`
       .home {
         position: absolute;
@@ -49,6 +64,7 @@ export default () => (
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        margin-bottom: 20px;
       }
 
       a {
@@ -56,6 +72,13 @@ export default () => (
         margin:15px;
         text-decoration: none;
       }
+
+      .twitter {    
+        // position: absolute;
+        // right: 15;
+        // bottom: 15;    
+      }
+
     `}</style>
   </Page>
 )

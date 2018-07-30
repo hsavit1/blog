@@ -1,6 +1,6 @@
-export default ({ children, title }) => (
+export default ({ children }) => (
     <div className="wrap">
-      <b>{title ? title : "Further Reading"}</b>
+      <b>Podcasts</b>
       <div className="content">{ children }</div>
       <style jsx>{`
 
@@ -14,7 +14,7 @@ export default ({ children, title }) => (
           flex-direction: column;
           margin-bottom: 25px;
           padding: 15px;
-          background: #ecffb3;
+          background: #e6e5fc;
           line-height: 20px;
         }
   

@@ -1,3 +1,6 @@
+// import React, { Component } from 'react';
+// import Lightbox from 'react-image-lightbox';
+
 export default ({ desc, href, children, wide  }) => (
   <div className={ wide && 'wide' }>
     { href
@@ -52,6 +55,30 @@ const Image = ({ width, src }) => (
   </div>
 )
 
+const SideBySide = ({width, src1, src2 }) => (
+  <div>
+    <img width={width} src={src1} className="img1"/>
+    <img width={width} src={src2} className="img2"/>
+
+    <style jsx>{`
+      img {
+        max-width: 48%;
+        height: 300px;
+      }
+
+      .img1 {
+        margin-right: 10px;
+      }
+
+      .img2 {
+        
+      }
+
+    `}</style>
+
+  </div>  
+)
+
 const Video = ({ src }) => (
   <div>
     <video autoPlay loop src={src} />
@@ -64,4 +91,39 @@ const Video = ({ src }) => (
   </div>
 )
 
-export { Image, Video }
+//react image lightbox example
+// class LightboxImage extends Component {
+
+// 	//takes image src as a prop
+
+// 	constructor(props) {
+// 	  super(props);
+  
+// 	  this.state = {
+// 		photoIndex: 0,
+// 		isOpen: false,
+// 	  };
+// 	}
+  
+// 	render() {
+// 	  const { photoIndex, isOpen } = this.state;
+  
+// 	  return (
+// 		<div>
+// 		  <button type="button" onClick={() => this.setState({ isOpen: true })}>
+// 			Open Lightbox
+// 		  </button>
+  
+// 		  {isOpen && (
+// 			<Lightbox
+// 			  mainSrc={this.props.src}
+// 			  onCloseRequest={() => this.setState({ isOpen: false })}
+// 			/>
+// 		  )}
+// 		</div>
+// 	  );
+// 	}
+// }
+
+// export { Image, Video, LightboxImage }
+export { Image, Video, SideBySide }

@@ -22,6 +22,9 @@ export default ({ children }) => (
 
 			.logo {
 				padding-bottom: 50px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
 			}
 
 			a {

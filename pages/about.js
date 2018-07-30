@@ -24,7 +24,7 @@ export default () => (
 				On here you'll find some longform musings related to the
 				evolution of cryptocurrencies such as Bitcoin and Ethereum, the
 				purpose of the internet and other design meditations, some
-				technical stuff, and some satire. Most likely political satire.
+				technical stuff, and some satire.
 			</P>
 
 			<P>

@@ -140,7 +140,7 @@ export default withViews(({ views }) => (
         <FR>
             <UL>
                 <ULI>
-                    <a href="https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html">New York Times: Beyond the Bitcoin Bubble</a>
+                    <a href="https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html">New York Times: Beyond the Bitcoin Bubble</a> - Paints the story of crypto and it's potential use cases   
                 </ULI>
 
                 <ULI>
@@ -160,6 +160,11 @@ export default withViews(({ views }) => (
                     <a href="http://continuations.com/post/148098927445/crypto-tokens-and-the-coming-age-of-protocol">Crypto Tokens and the Coming Age of Protocol Innovation</a>
                 </ULI>
 
+                <ULI>
+					<a href="https://medium.com/blockchannel/antifragility-and-optionality-in-fat-protocols-9ba7300a55c5">
+                        Antifragility and Optionality in Fat-Protocols
+					</a> - Discusses how the protocol layer creates an anti-fragile ecosystem for crypto
+                </ULI>
             </UL>
         </FR>
 

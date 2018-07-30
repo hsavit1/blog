@@ -40,7 +40,7 @@ const Image = ({ width, src }) => (
 				height: 230px;
 				margin: 10px 15px 0 0;
 				box-shadow: 5px 10px 10px -5px grey;
-				// box-shadow: 0px 2px 4px 0px rgba(#000, .1), 0px 9px 20px 0px rgba(#000, .25);
+				rgba(#000, .25);
 			}
 
 			img:hover {
