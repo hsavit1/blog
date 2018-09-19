@@ -48,7 +48,7 @@ export default withViews(({ views }) => (
         </div>
         
         <P>
-            Also heard in the room were shouts from Little Marco's new personal prayer trainer, Big Prayer Nick, whom Little Marco had hired in response to the devastating tragedy. "MORE PASSION! AND MORE THANK YOUS FOR OUR LORD AND SAVIOR!!"
+            Also heard in the room were shouts from Little Marco's new personal prayer trainer, Big Prayer Nick, whom Little Marco had hired in response to the devastating tragedy. <i>"MORE PASSION! AND MORE THANK YOUS FOR OUR LORD AND SAVIOR!!"</i>
         </P>
 
         <P>

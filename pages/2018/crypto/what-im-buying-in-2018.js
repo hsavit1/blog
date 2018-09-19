@@ -572,7 +572,7 @@ export default withViews(({ views }) => (
 			Zilliqa team takes a different stance. Non-technically, it's perhaps
 			slacking a bit behind in evangelism, however the quality of
 			materials that have been released seem to be quite high. The chief
-			marketing officer held a <a href="https://www.linkedin.com/in/christelquek/">leading position as Twitter's
+			marketing officer held a <a href="https://www.linkedin.com/in/christelquek/">leading position as 's
 			head of content</a>. The Zilliqa team has been doing significant outreach
 			in the United States over the past few weeks. I've seen them
 			appear on podcasts, they've presented at NEO devcon, and at Stanford

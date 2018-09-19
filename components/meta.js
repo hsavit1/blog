@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NProgress from 'nprogress'
 import Router from 'next/router'
+import styled from 'styled-components'
 
 Router.onRouteChangeStart = () => NProgress.start()
 Router.onRouteChangeComplete = () => NProgress.done()
@@ -21,7 +22,7 @@ export default () => (
       }
 
       body {
-        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif, Futura;
       }
 
       a {

@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: savits-blog.now.sh
+Token: eecb04d2792d24853ef5fc3f8a2e7d97fbbb11954da9c9f0dfc81bba7420d3d5

@@ -1,5 +1,6 @@
 import Meta from '../components/meta';
 import Link from 'next/prefetch';
+// import { TwitterFollowButton } from 'react-twitter-embed';
 
 export default ({ children }) => (
 	<div className="main">
@@ -7,6 +8,17 @@ export default ({ children }) => (
 			<Link href="/">
 				<a>Home</a>
 			</Link>
+			{/* <Link href="/about"><a>About</a></Link> */}
+
+			{/* <TwitterFollowButton 
+              screenName="CantBeMoreWrong" 
+              options={
+                {
+                  size: "small", 
+                }
+              } 
+            /> */}
+
 		</div>
 
 		{children}
@@ -18,6 +30,7 @@ export default ({ children }) => (
 		<style jsx>{`
 			.main {
 				padding: 25px 50px;
+				background-color: #fff8ee;
 			}
 
 			.logo {

@@ -1,1 +1,0 @@
-//https://www.inverse.com/article/40606-bitcoin-cryptocurrency-react-to-coincheck-hack

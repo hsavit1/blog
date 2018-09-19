@@ -9,8 +9,8 @@ import TLDR from '../../../components/post/tldr';
 import BIGQ from '../../../components/post/big-question';
 import Idea from '../../../components/post/idea';
 import UL, { LI as ULI } from '../../../components/post/bullets-list';
-import Figure, { Image } from '../../../components/post/figure';
-import { TwitterTweetEmbed } from 'react-twitter-embed';
+import Figure, { Image, SideBySide } from '../../../components/post/figure';
+// import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 import withViews from '../../../lib/with-views';
 
@@ -24,8 +24,11 @@ export default withViews(({ views }) => (
 
 		<Meta date="July 30th, 2018" views={views} />
 
-        <Figure desc="Zombie Hitler made a brief appearance on yesterday's panel / Getty">
-            <Image src="/static/zombie_hitler.jpg" />
+        <Figure desc="Zombie Hitler made a brief appearance on yesterday's Hannity panel / AP">
+            <SideBySide
+				src1="/static/zombie_hitler.jpg"
+				src2="/static/hannity.jpg"
+			/>
         </Figure>
 
         <P>
@@ -34,11 +37,11 @@ export default withViews(({ views }) => (
         </P>
 
         <P>
-            "His speech was a little rusty but that's understandable given that he spent all of those years buried in the ground and that worms were pouring out of his mouth. He's still pretty up to date when it comes to topics like the fake news mainstream media, the insane leftist cult, and border security. He's really an expert. We are happy to hear the voices of outsiders who can speak so lucidly on behalf of the president."
+            "His speech was a little rusty but that's understandable given that he spent all of those years buried in the ground and that worms were pouring out of his mouth and eye holes. But he's still pretty up to date when it comes to topics like the fake news mainstream media, the insane leftist cult, and border security. He's really an expert. We are happy to hear the voices of outsiders who can call out the MSM and speak so lucidly on behalf of the president."
         </P>
 
         <P>
-            After the program, Hannity and Zombie Hitler were able to play a little catch up on their personal lives. The zombie pundit was pleased to inform Hannity that Roger Ailes sends his warmest regards.  
+            After the program, Hannity and Zombie Hitler were able to play a little catch up on their personal lives. The zombie pundit was pleased to inform Hannity that Roger Ailes sends his warmest regards, and also wanted to send a reminder that Sean shouldn't forget to wipe his mouth after speaking.  
         </P>
 
 	</Post>

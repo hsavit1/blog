@@ -19,7 +19,7 @@ const red = ({ children }) => (
 		<style jsx>{`
 			h1 {
 				display: inline;
-				color: #ff001f;
+				color: #FF4484;
 			}
 		`}</style>
 	</h1>

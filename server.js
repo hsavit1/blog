@@ -1,57 +1,73 @@
-const { createServer } = require('http')
-const { parse } = require('url')
-const next = require('next')
-const atom = require('./lib/atom')
-const gpgKey = require('fs').readFileSync('./gpg.asc');
+const { createServer } = require('http');
+const { parse } = require('url');
+const next = require('next');
+const path = require('path');
+const fs = require('fs');
+// const helmet = require('helmet')
+const gpgKey = fs.readFileSync(path.join(__dirname, 'gpg.asc'));
+const brave = fs.readFileSync(path.join(__dirname, 'brave-payments-verification.txt'));
 
-const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev })
-const handle = app.getRequestHandler()
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev, dir: __dirname });
+const handle = app.getRequestHandler();
 
-app.prepare()
-.then(() => {
-  createServer((req, res) => {
-    const { pathname } = parse(req.url)
+app.prepare().then(() => {
+	const srv = createServer((req, res) => {
+		const { pathname } = parse(req.url);
 
-    // if (/^\/slackin\/?$/.test(pathname)) {
-    //   res.writeHead(302, {
-    //     Location: 'https://github.com/rauchg/slackin'
-    //   })
-    //   res.end()
-    //   return
-    // }
+		if ('/gpg.asc' === pathname) {
+			const body = gpgKey;
+			res.setHeader('Content-Type', 'text/plain');
+			res.setHeader('Content-Length', Buffer.byteLength(body));
+			res.end(body);
+			return;
+		}
 
-    // if (/^\/\d{4}\/.+\/$/.test(pathname)) {
-    //   // wordpress used to link to posts with a
-    //   // trailing slash, that would 404 in next
-    //   // so we redirect them to without
-    //   res.writeHead(301, {
-    //     Location: pathname.substr(0, pathname.length - 1)
-    //   })
-    //   res.end()
-    //   return
-    // }
+		if ('/.well-known/brave-payments-verification.txt' === pathname) {
+			const body = brave;
+			res.setHeader('Content-Type', 'text/plain');
+			res.setHeader('Content-Length', Buffer.byteLength(body));
+			res.end(body);
 
-    if ('/gpg.asc' === pathname) {
-      const body = gpgKey;
-      res.setHeader('Content-Type', 'text/plain');
-      res.setHeader('Content-Length', Buffer.byteLength(body));
-      res.end(body);
-      return;
-    }
+			return;
+		}
 
-    if(/^\/atom\/?$/.test(pathname)) {
-      const body = atom();
-      res.setHeader('Content-Type', 'text/xml');
-      res.setHeader('Content-Length', Buffer.byteLength(body));
-      res.end(body);
-      return
-    }
+		handle(req, res);
+	});
 
-    handle(req, res)
-  })
-  .listen(3000, (err) => {
-    if (err) throw err
-    console.log('> Ready on http://localhost:3000')
-  })
-})
+	srv.listen(3000, err => {
+		if (err) throw err;
+		console.log('> Ready on http://localhost:3000');
+	});
+
+	process.on('SIGTERM', () => {
+		console.log('> Shutting down');
+		srv.close();
+	});
+});
+
+// const handle = app.getRequestHandler()
+// const staticPath = join(__dirname, 'static')
+// const staticFiles = fs.readdirSync(staticPath)
+//   .filter(item => !item.startsWith('.'))
+//   .map(item => `/${item}`)
+
+// app.prepare()
+//   .then(() => {
+//     const server = express()
+//     server.use(helmet())
+
+//     server.get('*', (req, res) => {
+//       const parsedUrl = parse(req.url, true)
+//       if (staticFiles.indexOf(parsedUrl.pathname) > -1) {
+//         app.serveStatic(req, res, join(__dirname, 'static', parsedUrl.pathname))
+//       } else {
+//         return handle(req, res)
+//       }
+//     })
+
+//     server.listen(port, (err) => {
+//       if (err) throw err
+//       console.log(`> Houston, we have liftoff! (http://localhost:${port})`)
+//     })
+// })

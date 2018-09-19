@@ -1,30 +1,69 @@
 {
-    "posts": [
-      {
-        "id": "our-cryptocurrency-hellscape",
-        "date": "January 16, 2018",
-        "title": "Our Cryptocurrency Hellscape"
-      },
-      {
-        "id": "cryptoassets",
-        "date": "February 6, 2018",
-        "title": "Summary of Cryptoassets, by Jack Tartar and Chris Burniske (~10 min)"
-      },
-      {
-        "id": "centralization-problems",
-        "date": "January 22, 2018",
-        "title": "Centralization Problems faced by different Consensus Mechanisms"
-      },
-      {
-        "id": "bitcoins-climate-change-problem",
-        "date": "January 22, 2018",
-        "title": "Bitcoin's Climate Change Problem"
-      },
-      {
-        "id": "fat-protocols",
-        "date": "January 28, 2018",
-        "title": "Reflection: Fat Protocols"
-      }
-    ]
-  }
-  
+	"posts": [
+		{
+			"id": "what-gives-bitcoin-value",
+			"date": "January 28, 2018",
+			"title": "what-gives-bitcoin-value"
+		},
+		{
+			"id": "scaling-with-lightning",
+			"date": "January 28, 2018",
+			"title": "scaling-with-lightning"
+		},
+		{
+			"id": "crypto-hacks",
+			"date": "January 28, 2018",
+			"title": "timeline of bitcoin hacks"
+		},
+		{
+			"id": "crypto-wealth-innequality",
+			"date": "January 28, 2018",
+			"title": "crypto-wealth-innequality"
+		},
+		{
+			"id": "bitcoin-price-indicators",
+			"date": "January 28, 2018",
+			"title": "bitcoin-price-indicators"
+		},
+		{
+			"id": "climate-change",
+			"date": "January 28, 2018",
+			"title": "Bitcoin's Climate Change Problem"
+		},
+		{
+			"id": "sec-regulation",
+			"date": "January 28, 2018",
+			"title": "sec regulation"
+		},
+		{
+			"id": "blockchain-consensus-protocols",
+			"date": "January 28, 2018",
+			"title": "blockchain-consensus-protocols"
+		},
+		{
+			"id": "our-cryptocurrency-hellscape",
+			"date": "January 16, 2018",
+			"title": "Our Cryptocurrency Hellscape"
+		},
+		{
+			"id": "cryptoassets",
+			"date": "February 6, 2018",
+			"title": "Summary of Cryptoassets, by Jack Tartar and Chris Burniske (~10 min)"
+		},
+		{
+			"id": "centralization-problems",
+			"date": "January 22, 2018",
+			"title": "Centralization Problems faced by different Consensus Mechanisms"
+		},
+		{
+			"id": "bitcoins-climate-change-problem",
+			"date": "January 22, 2018",
+			"title": "Bitcoin's Climate Change Problem"
+		},
+		{
+			"id": "fat-protocols",
+			"date": "January 28, 2018",
+			"title": "Reflection: Fat Protocols"
+		}
+	]
+}

@@ -14,8 +14,10 @@ export default ({ children }) => (
           flex-direction: column;
           margin-bottom: 25px;
           padding: 15px;
-          background: #ff8484;
           line-height: 20px;
+          border-style: solid;
+          border-width: 4px;
+          border-color #ff4484;
         }
   
         .content {          

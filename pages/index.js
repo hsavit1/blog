@@ -1,6 +1,12 @@
 import Page from '../layouts/main'
 import Link from 'next/prefetch'
 import Head from 'next/head'
+import styled from 'styled-components'
+
+const name = styled.h1`
+  font-size: 48px;
+  font-family: 'Monaco';
+`;
 
 export default () => (
   <Page>
@@ -10,27 +16,16 @@ export default () => (
 
   <div>
     <div className="home">
-      <div className="main">
+
         <h1>Henry Savit</h1>
+      <div className="main">
         <nav>
-          <Link href="/about"><a>About</a></Link>
           <Link href="/longform"><a>Essays</a></Link>
+          <Link href="/bookshelf"><a>Bookshelf</a></Link>
           <Link href="/satire"><a>Satire</a></Link>
           <Link href="/cryptos"><a>Crypto</a></Link>
-          <Link href="/bookshelf"><a>Bookshelf (WIP)</a></Link>
-          <a target="_blank" href="https://twitter.com/cantbemorewrong">Twitter</a>        
+          <Link href="/about"><a>About</a></Link>
         </nav>
-
-        <div className="twitter">
-            {/* <TwitterMentionButton 
-              screenName="CantBeMoreWrong" 
-              options={
-                {
-                  size: "large", 
-                }
-              } 
-            /> */}
-        </div>
 
       </div>
 
@@ -45,9 +40,11 @@ export default () => (
         right: 0;
         bottom: 0;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        // align-items: center;
+        // justify-content: center;
         z-index: -1;
+        background-color: #fff8ee;
       }
 
       .main {
@@ -56,28 +53,70 @@ export default () => (
       }
 
       h1 {
-        font-size: 14px;
-        font-weight: normal;
+        // font-size: 64px;
+        font-family: Menlo;
+        writing-mode: vertical-lr;
+        text-transform: uppercase;
+        font-weight: 1200;
+        font-size: 7.2rem;      
+        flex: 1;
+        align-self: flex-end;
+        text-overflow: clip;
+        // width: 100px;
       }
 
       nav {
+        align-self: flex-start;
         display: flex;
+        width: 100;
         flex-direction: column;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 100px;
+        // justify-content: flex-end;
+        // margin-bottom: 20px;
       }
 
       a {
         display: inline-block;
         margin:15px;
         text-decoration: none;
+        align-self: flex-end;
+        background-color: white;
+        font-size: 32px;    
+        background-color: #FF4484;
+        color: #fff;
+        text-decoration: none;
+        word-wrap: normal;
       }
 
-      .twitter {    
-        // position: absolute;
-        // right: 15;
-        // bottom: 15;    
+      a:hover {
+        background-color: #665f55;
+        color: #fff;
       }
+
+      @media (max-height: 815px) {
+				h1 {
+          font-size: 6.6rem;     
+          margin-top: 100px; 
+        }
+      }
+      
+      @media (max-height: 700px) {
+				h1 {
+          font-size: 6.2rem;     
+          margin-top: 100px; 
+        }
+			}
+
+      @media (max-height: 650px) {
+				h1 {
+          font-size: 5.2rem;     
+          margin-top: 100px; 
+        }
+        a {
+          font-size: 22px;     
+        }
+
+			}
 
     `}</style>
   </Page>

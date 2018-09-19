@@ -7,6 +7,7 @@ export default ({ children }) => (
         b {
           // margin-top: 25px;
           margin-bottom: 15px;
+          font-size: 18px;
         }
 
         .wrap {
@@ -15,7 +16,7 @@ export default ({ children }) => (
           margin-bottom: 25px;
           padding: 10px;
           background: #ffffe6;
-          line-height: 20px;
+          line-height: 24px;
         }
   
         .content {          
@@ -23,6 +24,7 @@ export default ({ children }) => (
           margin-bottom: 0px;
           display: inline;
           font-style: oblique;
+          font-size: 16px;
         }
       `}</style>
     </div>

@@ -46,16 +46,19 @@ export default class Meta extends React.Component {
 
           .highlight {
             animation-name: highlight;
-            animation-duration: 1s;
+            animation-duration: 2s;
             animation-fill-mode: forwards;
           }
 
           @keyframes highlight {
-            from {
+            0% {
               background-color: yellow;
             }
-            to {
+            50% {
               background-color: #fff;
+            }
+            100% {
+              background-color: yellow;
             }
           }
         `}</style>

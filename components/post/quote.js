@@ -12,7 +12,7 @@ export default ({ by, children }) => (
         margin: 30px 0;
         color: #9B9B9B;
         font-style: oblique;
-        font-size: 12px;
+        font-size: 16px;
       }
 
       p {
