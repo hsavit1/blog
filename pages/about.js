@@ -1,5 +1,4 @@
 import Page from '../layouts/main';
-import Link from 'next/prefetch';
 import Head from 'next/head';
 import P from '../components/post/paragraph';
 import TITLE from '../components/about/title';
@@ -16,8 +15,9 @@ export default () => (
 			<SUBTITLE>Behold, my Webpage</SUBTITLE>
 
 			<P>
-				Hey you, with the 2 eyes, Looking at the screen! You made it.
-				Thanks for checking out my page.
+				Hey you, with the 2 eyes! Yeah you. You know who I'm talking to.
+				The one looking at the screen! I can't believe you're really
+				here! I can't physically hug you but I would!
 			</P>
 
 			<P>

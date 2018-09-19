@@ -1,0 +1,12 @@
+*
+!package.json
+!components
+!yarn.lock
+!pages
+!server.js
+!posts.json
+!books.json
+!cryptoposts.json
+!shortform.json
+!lib
+!layouts

@@ -1,11 +1,11 @@
 import Meta from '../components/meta';
-import Link from 'next/prefetch';
+import Link from 'next/link';
 // import { TwitterFollowButton } from 'react-twitter-embed';
 
 export default ({ children }) => (
 	<div className="main">
 		<div className="logo">
-			<Link href="/">
+			<Link prefetch href="/">
 				<a>Home</a>
 			</Link>
 			{/* <Link href="/about"><a>About</a></Link> */}

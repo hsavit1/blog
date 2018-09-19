@@ -1,8 +1,11 @@
 import Page from '../layouts/main';
-import Link from 'next/prefetch';
-import { books } from '../books';
+import Link from 'next/link';
+// import {books} from '../books.json';
+
 import Head from 'next/head';
 import Figure, { Image } from '../components/bookshelf/image';
+
+const { books } = require('../books.json');
 
 export default () => (
 	<Page>
@@ -21,18 +24,17 @@ export default () => (
 			))}
 		</div>
 
-        <style jsx>{`
+		<style jsx>{`
 			.books {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: flex-start;
-                align-items: flex-start;
-                align-content: center;
-                margin: 20;
-            }
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				align-items: flex-start;
+				align-content: center;
+				margin: 20;
+			}
 		`}</style>
-
 	</Page>
 );
 
@@ -40,9 +42,12 @@ const Book = ({ id, date, title, image }) => (
 	<div className="book">
 		<span className="date">{date}</span>
 
-		<Link href={`/${new Date(date).getFullYear()}/bookshelf/${id}`}>
+		<Link
+			prefetch
+			href={`/${new Date(date).getFullYear()}/bookshelf/${id}`}
+		>
 			<a>
-				<Image src={image} className="image"/>
+				<Image src={image} className="image" />
 			</a>
 		</Link>
 

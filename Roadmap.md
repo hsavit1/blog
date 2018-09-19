@@ -4,6 +4,7 @@
 
 - integrate docker into deployment pipeline
 - integrate github into your deployment pipeline
+- integrate styled components and replace all of the next.js css
 
 ## Features to implement
 

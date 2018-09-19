@@ -4,7 +4,6 @@ const next = require('next');
 const path = require('path');
 const fs = require('fs');
 // const helmet = require('helmet')
-const gpgKey = fs.readFileSync(path.join(__dirname, 'gpg.asc'));
 const brave = fs.readFileSync(path.join(__dirname, 'brave-payments-verification.txt'));
 
 const dev = process.env.NODE_ENV !== 'production';
@@ -14,15 +13,7 @@ const handle = app.getRequestHandler();
 app.prepare().then(() => {
 	const srv = createServer((req, res) => {
 		const { pathname } = parse(req.url);
-
-		if ('/gpg.asc' === pathname) {
-			const body = gpgKey;
-			res.setHeader('Content-Type', 'text/plain');
-			res.setHeader('Content-Length', Buffer.byteLength(body));
-			res.end(body);
-			return;
-		}
-
+		
 		if ('/.well-known/brave-payments-verification.txt' === pathname) {
 			const body = brave;
 			res.setHeader('Content-Type', 'text/plain');
