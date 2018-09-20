@@ -1,5 +1,4 @@
 # blog
-# blog
 
 This is the blog that powers `savits-blog.com`, built on
 [next.js](https://zeit.co/blog/next) and

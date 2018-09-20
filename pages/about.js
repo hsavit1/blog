@@ -15,9 +15,8 @@ export default () => (
 			<SUBTITLE>Behold, my Webpage</SUBTITLE>
 
 			<P>
-				Hey you, with the 2 eyes! Yeah you. You know who I'm talking to.
-				The one looking at the screen! I can't believe you're really
-				here! I can't physically hug you but I would!
+				Hey you! Yeah you. You know who I'm talking to. The one looking
+				at the screen!
 			</P>
 
 			<P>

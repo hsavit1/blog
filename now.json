@@ -2,6 +2,6 @@
     "features": {
       "cloud": "v3"
     },
-    "type": "docker",
+    "type": "npm",
     "name": "savits-blog"
   }
