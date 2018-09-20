@@ -1,5 +1,7 @@
 {
     "features": {
       "cloud": "v3"
-    }
+    },
+    "type": "docker",
+    "name": "savits-blog"
   }
