@@ -1,4 +1,4 @@
-import styled, {keyframes} from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 const pulse = keyframes`
 	from { transform: scale3d(1, 1, 1); }
@@ -7,8 +7,6 @@ const pulse = keyframes`
 
 	to { transform: scale3d(1, 1, 1); }
 `;
-
-
 
 const StyledImage = styled.img`
 	width: 160px;
@@ -63,10 +61,8 @@ export default ({ desc, href, children, wide }) => (
 	</div>
 );
 
-//for firefox and IE
-//https://stackoverflow.com/questions/50331594/keyframe-animation-on-hover
 const Image = ({ width, src }) => (
-	<div>
+	<div className="grow">
 		<img width={width} src={`/static/${src}`} />
 		<style jsx>{`
 			img {
@@ -76,27 +72,14 @@ const Image = ({ width, src }) => (
 				box-shadow: 5px 10px 10px -5px grey;
 				rgba(#000, .25);
 			}
-
-			img:hover {
-				animation: pulse 1s;
-				-webkit-animation: pulse 1s;
-				-moz-animation: pulse 1s;
-			}
-			  
-			@keyframes pulse {
-				0% {
-					transform: scale3d(1, 1, 1);
-				}
 			
-				50% {
-					transform: scale3d(1.05, 1.05, 1.05);
-				}
+			.grow {
+				transition: all .2s ease-in-out;
+			  }
 			
-				100% {
-					transform: scale3d(1, 1, 1);
-				}
-			}
-			
+			.grow:hover {
+				transform: scale(1.05);
+			}			  
 
 		`}</style>
 	</div>
