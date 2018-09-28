@@ -58,19 +58,6 @@ export default () => (
 				text-align: center;
 			}
 
-			h1 {
-				// font-size: 64px;
-				font-family: Menlo;
-				writing-mode: vertical-lr;
-				text-transform: uppercase;
-				font-weight: 1200;
-				font-size: 7.2rem;
-				flex: 1;
-				align-self: flex-end;
-				text-overflow: clip;
-				// width: 100px;
-			}
-
 			nav {
 				align-self: flex-start;
 				display: flex;
@@ -99,23 +86,52 @@ export default () => (
 				color: #fff;
 			}
 
+
+			h1 {
+				// font-size: 64px;
+				font-family: Menlo;
+				writing-mode: vertical-lr;
+				text-transform: uppercase;
+				font-weight: 1200;
+				font-size: 6rem;
+				flex: 1;
+				align-self: flex-end;
+				text-overflow: clip;
+				// width: 100px;
+			}
+
+			@media (max-height: 350x) {
+				h1 {
+					font-size: 2.2rem;
+					margin-top: 100px;
+				}
+			}
+
+
+			@media (max-width: 800x) {
+				h1 {
+					font-size: 4.2rem;
+					margin-top: 100px;
+				}
+			}
+
 			@media (max-height: 815px) {
 				h1 {
-					font-size: 6.6rem;
+					font-size: 6rem;
 					margin-top: 100px;
 				}
 			}
 
 			@media (max-height: 700px) {
 				h1 {
-					font-size: 6.2rem;
+					font-size: 5rem;
 					margin-top: 100px;
 				}
 			}
 
 			@media (max-height: 650px) {
 				h1 {
-					font-size: 5.2rem;
+					font-size: 4.7rem;
 					margin-top: 100px;
 				}
 				a {
