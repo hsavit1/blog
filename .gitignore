@@ -1,3 +1,9 @@
 node_modules
 .next
 yarn.lock
+cryptoposts_experimental.json
+posts_experiemental.json
+shortform_experimental.json
+brave-payments-verification.txt
+Roadmap.md 
+gpg.asc
