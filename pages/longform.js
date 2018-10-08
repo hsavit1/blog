@@ -38,9 +38,9 @@ const Post = ({ id, date, title }) => (
 
 			a {
 				text-decoration: none;
+				
 			}
 
-			@media (max-width: 500px) {
 				.post {
 					margin-bottom: 15px;
 				}
@@ -53,7 +53,6 @@ const Post = ({ id, date, title }) => (
 					color: #ccc;
 					margin-bottom: 5px;
 				}
-			}
 		`}</style>
 	</div>
 );
