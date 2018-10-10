@@ -3,7 +3,6 @@
 ## Things to do
 
 - integrate docker into deployment pipeline
-- integrate github into your deployment pipeline
 - integrate styled components and replace all of the next.js css
 
 ## Features to implement
@@ -16,6 +15,9 @@
 - add a feature to gauge reading time on number of words
 - use [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images#readme) to reduce image sizes by about 50%. this should speed things up
 - SSR your css with the _document.js file
+- add a feature that highlights a word like a dictionary
+- improve SEO 
+- make your articles easier to share on social media
 
 ## Things to write about
 
