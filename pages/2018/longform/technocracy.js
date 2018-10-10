@@ -39,7 +39,7 @@ export default withViews(({ views }) => (
       increasingly more coveted as we plunge deeper into the internet age.
       Online courses (MOOC) and code bootcamps are popping up everywhere as
       people are scrambling to find career relevancy. Computer science is
-      getting introduced at the youth level in class cirricula, replacing
+      getting introduced at the youth level in class curricula, replacing
       humanities courses that are seen as irrelevant in the modern age.{" "}
       <Ref id="1" />
     </P>
@@ -49,13 +49,17 @@ export default withViews(({ views }) => (
       within the field has been well documented and shows few signs of changing
       for the better. Common software developer stereotypes haven't changed much
       either. You probably know of them. They're often males or LGBTQ under age
-      30, sexless, posess a couple of social skills, live in a major city like
+      30, sexless, posses a couple of social skills, live in a major city like
       SF or NYC, they show up to work late, don hoodies, work long hours alone
       in their basements, and are as hyper obsessed with detail scrutiny as they
       are with their coffee beans. No wonder why straight women have a rough
-      time fitting in. The developer lifestyle molds people that aren't As one
-      would expect, male software developers categorize nearly 80% of the
-      workforce.
+      time fitting in. The developer lifestyle molds people that aren't
+      interested in engaging in the tango and romance of a non-technical,
+      non-bureaucratic conversation with type of person who they haven't dealt
+      with previously. As one would expect, the community, despite all of the
+      efforts to be more inclusive, fundamentally cannot be because it's
+      constituents are not aware of what changes that they really need to make.
+      And as a result, male software developers categorize nearly 80% of the workforce.
     </P>
     {/* idea */}
     <P>
@@ -72,7 +76,7 @@ export default withViews(({ views }) => (
     <P>
       The Trump administration has brazenly and unabashedly brought the GOP's
       intentions into plain sight. It's not difficult to string together the
-      general plan for the Trump administration and the Repiublican party in
+      general plan for the Trump administration and the Republican party in
       general. With a changing census, the party of traditional white elites
       cannot stand as it traditionally has. The only way that it can win is by
       limiting voter turnout for the democrats. Trump's preferred way of doing
@@ -82,15 +86,15 @@ export default withViews(({ views }) => (
       American out of the Paris climate agreement, the tax bill, the gutting of
       health care, the mass deportation of immigrants, the trade wars, and the
       appointment of supreme court justices, his administration has been largely
-      successful at getting his craven adgenda pushed along. The Trump
-      adminitration hammers at every wedge issue, and by doing so, creates a
+      successful at getting his craven agenda pushed along. The Trump
+      administration hammers at every wedge issue, and by doing so, creates a
       continuous circus of despair, and establishes new levels of normal where
       anguish becomes commonplace and hopelessness runs rampant.
     </P>
     {/*  */}
     <P>
       The kinds of extreme conservatism that the Trump administration gets away
-      demands an extreme pushback responce amongst educated citizens, but that's
+      demands an extreme pushback response amongst educated citizens, but that's
       not what we're seeing. Despite endless reporting from news outlets, the
       same young and educated people who stayed at home during the 2016
       presidential election have become comatose to the dehumanizing nature of
@@ -119,10 +123,10 @@ export default withViews(({ views }) => (
     <Idea>
       I want to draw a conclusion that the culture of the software development
       space is same culture that gave rise to Trump. Unchecked and unethical
-      profit driven social media platforms like Facebook and Instragram have
+      profit driven social media platforms like Facebook and Instagram have
       played a huge part in crippling this country. Like the software developers
       who created the platform, young voters are isolated, disconnected, and
-      uninspired to take serious action against the opressive regimes.
+      uninspired to take serious action against the oppressive regimes.
     </Idea>
 
     <Quote>
@@ -138,9 +142,9 @@ export default withViews(({ views }) => (
       encouraged to be social activists by leaders in the industry.{" "}
       <Ref id="2" /> Instead, they're encouraged to just make things for the
       sake of making things. They're often insular "monkeys" who take very
-      specific design instuctions and turn them into a functional user
+      specific design instructions and turn them into a functional user
       interface. No thinking beyond that is encouraged because it is seen by the
-      managerial class as inefficent.
+      managerial class as inefficient.
     </P>
 
     <P>
@@ -162,7 +166,7 @@ export default withViews(({ views }) => (
       use the power of code to advance certain types of ideas. Programming isn't
       the equivalent of literacy - it doesn't have the same level of essential
       skill that reading and writing provides. That being said, programming can
-      offer tremendous benefits to the masses if the right people speciaize in
+      offer tremendous benefits to the masses if the right people specialize in
       it, just like how cinema can be a powerful and expressive art form if the
       right director is in place to hone in on an important message.
     </P>
@@ -181,16 +185,15 @@ export default withViews(({ views }) => (
     <TLDR>
       We're at a breaking point. Society is quickly embracing the field of
       computer science without considering the ethical implications of gutting
-      other subjects from school cirricula, especially in the humanities. Force
+      other subjects from school curricula, especially in the humanities. Force
       feeding students into computer science without also encouraging agency is
       an easy strategy for Republican plutocrats and Authoritarians like Trump
-      who benefit from a corpous of non-critcal-reasoning, ostracized,
+      who benefit from a corpus of non-critical-reasoning, ostracized,
       uninterested, undetermined, and uninspired voting block.
     </TLDR>
 
     <FootNotes>
       <Note id="1">
-        
         <a
           href="https://obamawhitehouse.archives.gov/blog/2016/01/30/computer-science-all"
           target="_blank"
@@ -200,7 +203,6 @@ export default withViews(({ views }) => (
       </Note>
 
       <Note id="2">
-        
         <a
           href="http://education.abc.net.au/home#!/media/1618376/"
           target="_blank"
@@ -210,7 +212,7 @@ export default withViews(({ views }) => (
       </Note>
     </FootNotes>
 
-        <FR title="Further Reading">
+    <FR title="Further Reading">
       <UL>
         <ULI>
           <a
@@ -231,6 +233,5 @@ export default withViews(({ views }) => (
         </ULI>
       </UL>
     </FR>
-
   </Post>
 ));
