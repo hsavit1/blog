@@ -14,13 +14,11 @@
 - add a page completion percentage bar on the top of the screen
 - add a feature to change the text size
 - add a feature to gauge reading time on number of words
-- add a feature to 
+- use [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images#readme) to reduce image sizes by about 50%. this should speed things up
+- SSR your css with the _document.js file
 
 ## Things to write about
 
 - write about how 
-- write about programs you need to make but don't have time to make
-- write about how medium is shit
-- keep making posts about books
 - write a post about dount-economics
 - write about hitler's american model

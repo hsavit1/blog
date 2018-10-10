@@ -3,19 +3,24 @@
   "description": "savits-blog.com",
   "dependencies": {
     "comma-number": "^2.0.0",
-    "firebase": "^5.5.0",
+    "firebase": "^5.5.3",
     "global": "^4.3.2",
     "isomorphic-fetch": "^2.2.1",
     "load-script": "^1.0.0",
+<<<<<<< HEAD
     "next": "7.0.0",
     "next-compose-plugins": "^2.1.1",
     "next-optimized-images": "^1.4.1",
     "now": "11.4.5",
+=======
+    "next": "7.0.1",
+    "now": "11.4.6",
+>>>>>>> 3f3bdc02480a7c8175980215356b1eef3a03e843
     "nprogress": "^0.2.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-twitter-embed": "1.1.3",
-    "react-youtube": "^7.6.0",
+    "react-twitter-embed": "1.2.0",
+    "react-youtube": "^7.7.0",
     "styled-components": "^3.4.9"
   },
   "scripts": {
