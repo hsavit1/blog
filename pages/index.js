@@ -23,7 +23,7 @@ export default () => (
 			<div className="moon" />
 			<div className="stars" />
 
-			<h3>click around if you give a shit about the world</h3>
+			<h3>Do the right thing and Protect this Rock</h3>
       {/* <span><img src="static/poop-emoji.png"/></span> */}
 			<div className="main">
 				<nav>
