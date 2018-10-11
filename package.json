@@ -22,5 +22,8 @@
     "dev": "next",
     "build": "next build",
     "start": "NODE_ENV=production node server"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2"
   }
 }
