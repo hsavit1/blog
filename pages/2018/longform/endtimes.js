@@ -24,7 +24,8 @@ export default withViews(({ views }) => (
 		</Head>
 		<Title>Endtimes: Confronting the Reality of a Climate Endgame</Title>
 		<Subtitle>
-			Calling all people of the world: the time to act is NOW.
+			Calling all people of the world: there is a war going on and the
+			time to act is NOW.
 		</Subtitle>
 		<Meta date="October 9th, 2018" views={views} />
 
@@ -33,7 +34,8 @@ export default withViews(({ views }) => (
 			with witnessing the <b>termination of the human species</b>, we have
 			no time left for complacency. Will we remain stubborn and
 			comfortable in the face of cataclysmic disaster or will we seriously
-			consider stepping out of our comfort zones for the sake of humanity?
+			consider stepping out of our comfort zones for the sake of humanity
+			and all of its future descendants?
 		</TLDR>
 
 		{/* intro */}
@@ -45,7 +47,7 @@ export default withViews(({ views }) => (
 			continue at the pace that we are on now. <Ref id="1" />
 		</P>
 
-		{/* <div
+		<div
 			style={{
 				display: 'flex',
 				'justify-content': 'center',
@@ -58,7 +60,7 @@ export default withViews(({ views }) => (
 			}}
 		>
 			<TwitterTweetEmbed tweetId="1049286953244524545" />
-		</div> */}
+		</div>
 
 		<P>
 			What are we as a society going to do about it? And what are we as
@@ -75,10 +77,53 @@ export default withViews(({ views }) => (
 
 		<P>
 			Most people do not look into the future in the way that I do. Maybe
-			it's because of my background in studying time and quantum mechanics
+			it's because of my obsession with studying time, quantum mechanics,
 			and higher dimensional spaces. I don't know. But I believe that my
 			perspective can help other people see the future differently. It's
 			really not that hard if you try, so I beg of you to read on.
+		</P>
+
+		<P>
+			Physicists do not believe much in the idea of time, and the idea of
+			a before and after. We are living in the past just as much as we are
+			living in the future. There is no "now". We exist in the world and
+			we will continue to exist in the world until our body is no longer
+			able to fight against the entropy induced decay of our biological
+			system. Unless you plan on dying today, you will live in the future.
+			Not caring about the future means that you don't understand what it
+			means to care about your own existence.
+		</P>
+
+		<P>
+			You might react just as many do to this: "I don't care, because by
+			the time that total disaster comes, I will already be dead."
+		</P>
+
+		<P>
+			This is partly true. Yes, you will be dead at some point. But your
+			children or grandchildren won't be. But they will be suffering as
+			the planet that they will be born into will surely be engulfed in
+			apocalyptic world war over limited amounts of resources on a planet
+			that is rapidly heating up.
+		</P>
+
+		<Idea>
+			Think about your future. You are yourself in the future. You're also
+			your grandkids - they're the biology of you that continues to live
+			on. That's how humans continue to occupy the planet. By doing
+			nothing about climate change now, you are watching your future self
+			suffer, and you signal that you are genuinely okay with that. If
+			you're not comfortable with living with your future self living in a
+			hell on Earth, reconsider what your problems are now, and tailor
+			them, knowing that your future self is begging you to do just that.
+		</Idea>
+
+		<P>
+			If you're not pitching into the fight, you are radically turning
+			your shoulder at the face of certain hell for your future self. It
+			doesn't have to be this way. If we can stave climate change off a
+			bit longer, we can extend the amount of time that humanity has to
+			figure something better out to ensure the survival of the species. But we need your help, NOW.
 		</P>
 
 		<FootNotes>
@@ -112,19 +157,20 @@ export default withViews(({ views }) => (
 			<UL>
 				<ULI>
 					<a
-						href="https://www.wired.com/2017/04/hey-computer-scientists-stop-hating-humanities/"
+						href="http://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html/"
 						target="_blank"
 					>
-						Hey, Computer Scientists! Stop Hating on the Humanities
+						UN Says Climate Genocide Is Coming. It’s Actually Worse
+						Than That.
 					</a>
 				</ULI>
 
 				<ULI>
 					<a
-						href="https://www.huffingtonpost.com/david-h-bailey/why-science-needs-the-hum_b_12518484.html"
+						href="https://www.vox.com/2018/10/10/17952334/climate-change-global-warming-un-ipcc-report-solutions-carbon-tax-electric-vehicles"
 						target="_blank"
 					>
-						Why Science Needs the Humanities
+						10 ways to accelerate progress against climate change
 					</a>
 				</ULI>
 			</UL>

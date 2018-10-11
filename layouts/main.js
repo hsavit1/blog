@@ -29,12 +29,12 @@ export default ({ children }) => (
 		{/* local styles */}
 		<style jsx>{`
 			.main {
-				padding: 25px 15px;
+				padding: 20px 20px;
 				background-color: #fff8ee;
 			}
 
 			.logo {
-				padding-bottom: 20px;
+				padding-bottom: 10px;
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
