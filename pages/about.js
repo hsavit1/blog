@@ -13,12 +13,12 @@ export default () => (
 			<TITLE>About</TITLE>
 
 			<SUBTITLE>
-				All you have to do is explore, read, think, and you will become
+				All you have to do is explore my site, read my posts, and think, and you will become
 				a better human
 			</SUBTITLE>
 
 			<P>
-				I made this site to open of my mind to you, the humble and
+				I made this site to open up my mind to you, the humble and
 				inquisitive reader. You'll be glad that you came to visit.
 			</P>
 
