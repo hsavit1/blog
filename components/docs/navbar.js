@@ -132,7 +132,7 @@ export default withRouter(({ isMobile, router }) => {
                   </div>
                 </div>
                 <div className="links mute dropdown">
-                  <Link href="/docs">
+                  {/* <Link href="/problems">
                     <a
                       className={classNames({
                         selected: route.startsWith('/docs')
@@ -142,8 +142,8 @@ export default withRouter(({ isMobile, router }) => {
                     >
                       Docs
                     </a>
-                  </Link>
-                  <Link href="/learn">
+                  </Link> */}
+                  {/* <Link href="/learn">
                     <a
                       className={classNames({
                         selected: route.startsWith('/learn')
@@ -153,8 +153,8 @@ export default withRouter(({ isMobile, router }) => {
                     >
                       Learn
                     </a>
-                  </Link>
-                  <Link href="/showcase" prefetch>
+                  </Link> */}
+                  {/* <Link href="/showcase" prefetch>
                     <a
                       className={classNames({
                         selected: route.startsWith('/showcase')
@@ -164,8 +164,8 @@ export default withRouter(({ isMobile, router }) => {
                     >
                       Showcase
                     </a>
-                  </Link>
-                  <Link href="/blog" prefetch>
+                  </Link> */}
+                  {/* <Link href="/blog" prefetch>
                     <a
                       className={classNames({
                         selected: route.startsWith('/blog')
@@ -175,7 +175,7 @@ export default withRouter(({ isMobile, router }) => {
                     >
                       Blog
                     </a>
-                  </Link>
+                  </Link> */}
                   {
                     // <Link href="/enterprise" prefetch><a className={classNames({ selected: route.startsWith('/enterprise') })} title='Enterprise' role='button'>Enterprise</a></Link>
                   }
@@ -275,7 +275,7 @@ export default withRouter(({ isMobile, router }) => {
                 `}
               </style>
               <div className="links">
-                <Link href="/docs">
+                <Link href="/problems">
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/docs')
@@ -286,7 +286,7 @@ export default withRouter(({ isMobile, router }) => {
                     Docs
                   </a>
                 </Link>
-                <Link href="/learn">
+                {/* <Link href="/learn">
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/learn')
@@ -296,8 +296,8 @@ export default withRouter(({ isMobile, router }) => {
                   >
                     Learn
                   </a>
-                </Link>
-                <Link href="/showcase" prefetch>
+                </Link> */}
+                {/* <Link href="/showcase" prefetch>
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/showcase')
@@ -307,7 +307,7 @@ export default withRouter(({ isMobile, router }) => {
                   >
                     Showcase
                   </a>
-                </Link>
+                </Link> */}
               </div>
               {/* <div className="logo">
                 <Link href="/" prefetch>
@@ -317,7 +317,7 @@ export default withRouter(({ isMobile, router }) => {
                 </Link>
               </div> */}
               <div className="links">
-                <Link href="/blog" prefetch>
+                {/* <Link href="/blog" prefetch>
                   <a
                     className={classNames('mute', {
                       selected: route.startsWith('/blog')
@@ -326,7 +326,7 @@ export default withRouter(({ isMobile, router }) => {
                   >
                     Blog
                   </a>
-                </Link>
+                </Link> */}
                 {
                   // <Link href="/enterprise" prefetch><a className={classNames('mute', { selected: route.startsWith('/enterprise') })} role='button'>Enterprise</a></Link>
                 }

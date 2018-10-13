@@ -13,8 +13,7 @@ export default () => (
 			<TITLE>About</TITLE>
 
 			<SUBTITLE>
-				All you have to do is explore my site, read my posts, and think, and you will become
-				a better human
+				I will make you a less shitty human, if you let me.
 			</SUBTITLE>
 
 			<P>
@@ -57,7 +56,7 @@ export default () => (
 
 			<P>
 				Zooming out of the world of crypto politics is the world of real
-				politics, where things have just turned so insane that writing
+				politics, where things have just turned so insane that
 				satire has become a coping mechanism for me.
 			</P>
 

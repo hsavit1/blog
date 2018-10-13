@@ -1,7 +1,7 @@
 import NativeLink from 'next/link';
 
 export const GenericLink = props => {
-  if (props.href.startsWith('/') && !props.href.startsWith('/docs')) {
+  if (props.href.startsWith('/') && !props.href.startsWith('/problems')) {
     return <InternalLink {...props} />;
   }
 

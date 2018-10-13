@@ -23,10 +23,10 @@ export default () => (
       <div className="moon" />
       <div className="stars" />
 
- <h3>Calling all people - Protect this Rock!</h3>
-      {/* <Link href="/docs">
+ {/* <h3>Calling all people - Protect this Rock!</h3> */}
+      <Link href="/problems">
         <a><h3>Calling all people - Protect this Rock!</h3></a>
-      </Link> */}
+      </Link>
 
       <div className="main">
         <nav>
