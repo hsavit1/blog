@@ -26,8 +26,8 @@ export default withViews(({ views }) => (
 
         <Figure desc="Zombie Hitler made a brief appearance on yesterday's Hannity panel / AP">
             <SideBySide
-				src1="/static/zombie_hitler.jpg"
-				src2="/static/hannity.jpg"
+				src1="/static/satire/zombie_hitler.jpg"
+				src2="/static/satire/hannity.jpg"
 			/>
         </Figure>
 

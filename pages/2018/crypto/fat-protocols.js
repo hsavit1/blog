@@ -50,7 +50,7 @@ export default withViews(({ views }) => (
         </P>
 
         <Figure desc="The protocol layer thus far has been thin and the application layer is fat. This has just been the way that computers and internet browsers have developed.">
-            <Image src="/static/thin-protocol.png" />
+            <Image src="/static/crypto/thin-protocol.png" />
         </Figure>
 
         <P>
@@ -114,7 +114,7 @@ export default withViews(({ views }) => (
         </P>
 
         <Figure desc="This is the blockchain created future, call it: web 3.0. The services you see on the internet would just be your preferred way of interacting with 1 or many protocols.">
-            <Image src="/static/fat-protocol.png" />
+            <Image src="/static/crypto/fat-protocol.png" />
         </Figure>
 
         <P>

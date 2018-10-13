@@ -39,8 +39,8 @@ export default withViews(({ views }) => (
 
 		<Figure desc="The left image gives me bearish thoughts, while the right looks like a regular, normal, healthy correction in an otherwise very bullish market. But it's the same 1 year timeframe and the same asset being charted (total market cap). The left shows a traditional chart and the right is a log scale. 2 perspectives may have your head spinning with possibilities - so how do I approach gauging this market?">
 			<SideBySide
-				src1="/static/six-month-range.png"
-				src2="/static/six-month-log-scale.png"
+				src1="/static/crypto/six-month-range.png"
+				src2="/static/crypto/six-month-log-scale.png"
 			/>
 		</Figure>
 
@@ -307,7 +307,7 @@ export default withViews(({ views }) => (
 		</P>
 
 		<Figure desc="Very rough sketch of what our crypto evolution looks like">
-			<Image src="/static/evolution.jpg" width={400} />
+			<Image src="/static/crypto/evolution.jpg" width={400} />
 		</Figure>
 
 		<P>
@@ -420,7 +420,7 @@ export default withViews(({ views }) => (
 		</P>
 
 		<Figure desc="This is the reality of the blockchain space in 2018. We are not mature enough to see working inter-blockchain protocol solutions, so instead I expect to see many jockeying platform protocol blockchain silos. Investors will gamble heavily to try to discover while silo will challenge Ethereum to be the leading silo. I argue that the leading silo will be the one with the most dapps.">
-			<Image src="/static/protocol-reality.jpeg" />
+			<Image src="/static/crypto/protocol-reality.jpeg" />
 		</Figure>
 
 		<P>
@@ -615,8 +615,8 @@ export default withViews(({ views }) => (
 
 		<Figure desc="The left image gives me bearish thoughts, while the right looks like a regular, normal, healthy correction in an otherwise very bullish market. But it's the same 1 year timeframe and the same asset being charted (total market cap). The left shows a traditional chart and the right is a log scale. 2 perspectives may have your head spinning with possibilities - so how do I approach gauging this market?">
 			<SideBySide
-				src1="/static/zilliqa_chart.png"
-				src2="/static/j-curve.png"
+				src1="/static/crypto/zilliqa_chart.png"
+				src2="/static/crypto/j-curve.png"
 			/>
 		</Figure>
 

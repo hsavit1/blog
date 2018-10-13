@@ -25,7 +25,7 @@ export default withViews(({ views }) => (
 		<Meta date="February 15th, 2018" views={views} />
 
         <Figure >
-            <Image src="/static/marco-rubio.jpg" width={300}/>
+            <Image src="/static/satire/marco-rubio.jpg" width={300}/>
         </Figure>
 
         <P>
