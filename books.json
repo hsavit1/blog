@@ -1,6 +1,12 @@
 {
 	"books": [
 		{
+			"id": "dumbfuckistan",
+			"date": "October 13, 2018",
+			"title": "Welcome to Dumbfuckistan",
+			"image": "dumbfuckistan.jpg"
+		},
+		{
 			"id": "the-death-of-truth",
 			"date": "July 28, 2018",
 			"title": "The Death of Truth",

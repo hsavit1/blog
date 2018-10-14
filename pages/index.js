@@ -25,25 +25,25 @@ export default () => (
 
  {/* <h3>Calling all people - Protect this Rock!</h3> */}
       <Link href="/problems">
-        <a><h3>Calling all people - Protect this Rock!</h3></a>
+        <a className="protect"><h3>Calling all people - Protect this Rock!</h3></a>
       </Link>
 
       <div className="main">
         <nav>
           <Link prefetch href="/longform">
-            <a>Essays</a>
+            <a className="side">Essays</a>
           </Link>
           <Link prefetch href="/bookshelf">
-            <a>Bookshelf</a>
+            <a className="side">Bookshelf</a>
           </Link>
           <Link prefetch href="/satire">
-            <a>Satire</a>
+            <a className="side">Satire</a>
           </Link>
           <Link prefetch href="/cryptos">
-            <a>Crypto</a>
+            <a className="side">Crypto</a>
           </Link>
           <Link prefetch href="/about">
-            <a>About</a>
+            <a className="side">About</a>
           </Link>
         </nav>
       </div>
@@ -289,7 +289,7 @@ export default () => (
         // margin-bottom: 20px;
       }
 
-      a {
+      .side {
         display: inline-block;
         margin: 15px;
         text-decoration: none;
@@ -298,6 +298,19 @@ export default () => (
         font-size: 32px;
         background-color: #ff4484;
         color: #fff;
+        text-decoration: none;
+        word-wrap: normal;
+      }
+
+      .protect {
+        display: inline-block;
+        margin: 15px;
+        text-decoration: none;
+        align-self: flex-end;
+        background-color: white;
+        font-size: 32px;
+        background-color: papayawhip;
+        color: black;
         text-decoration: none;
         word-wrap: normal;
       }
