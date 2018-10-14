@@ -1,6 +1,12 @@
 {
 	"books": [
 		{
+			"id": "donut-economics",
+			"date": "October 13, 2018",
+			"title": "Donut Economics",
+			"image": "donut-economics.jpg"
+		},
+		{
 			"id": "dumbfuckistan",
 			"date": "October 13, 2018",
 			"title": "Welcome to Dumbfuckistan",

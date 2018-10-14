@@ -62,6 +62,16 @@ export default withViews(({ views }) => (
       a cry for help.
     </P>
 
+    <P>
+      One thing that Gurwitz does so well is present an argument that dummies
+      really only come from the Republican states. He puts these lists together
+      - "The 10 Dumbest States", "The 10 Dumbest States", "The 10 Fattest
+      States", "The 10 Sickest States", "The 10 Poorest States", "The 10 Most
+      Heavily Armed States", "The 10 Most Religious States", and "The 10 Most
+      Depressed States." As you'd imagine, these lists are all overwhelmingly
+      filled with red states.
+    </P>
+
     <Quote>
       “The main thing wrong with religion is that people have gotten it wrong.
       The goal is to understand religion as it should be understood, as
@@ -105,6 +115,16 @@ export default withViews(({ views }) => (
       hyperbolic rhetoric in the message would instantly lead one to question
       the content."
     </Quote>
+
+    <P>
+      There are just so many lists in this book that when you read them, you
+      can't <i>not</i> notice the trends. He isn't pulling crazy facts out of
+      his ass either. There is so much overwhelming documented evidence of
+      depravity, stupidity and lunacy coming from the right that if you were a
+      decent human, you can <b>never</b> stand with. I love the format of
+      presenting easy to follow, hard hitting lists. It brings me back to
+      thinking about what a genius the late George Carlin had been.
+    </P>
 
     <P>
       What Gurwitz paints so clearly is that liberals need to stop pointing
