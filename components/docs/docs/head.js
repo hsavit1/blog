@@ -2,12 +2,12 @@ import Head from 'next/head'
 
 export default ({ children, ...props }) => (
   <Head>
-    <title>{`${props.title} - Next.js Documentation`}</title>
+    <title>Outline of Human Bullshit</title>
     <meta
       name="twitter:card"
       content={props.image ? 'summary_large_image' : 'summary'}
     />
-    <meta name="twitter:site" content="@zeithq" />
+    <meta name="twitter:site" content="@cantbemorewrong" />
     <meta
       name="og:title"
       content={props.ogTitle || props.title}
