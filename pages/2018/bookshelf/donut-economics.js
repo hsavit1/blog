@@ -52,7 +52,7 @@ export default withViews(({ views }) => (
       supply and demand curves that don't actually reflect the state of the
       world, or provide any impetus for thinking about the economy differently.
       Instead, we are just obsessed with the idea of the line eventually
-      reaching a point that reflects growth. 
+      reaching a point that reflects growth.
     </P>
 
     {/* todo */}
@@ -85,17 +85,18 @@ export default withViews(({ views }) => (
       provided by the images presented by the reassuring models telling us how
       the economy works are incapable of thinking outside of those images.
       Traditional economic supply and demand curves are still the basis for all
-      economic classes, even though microeconomic and macroeconomics are largely
+      economic classes, even though microeconomics and macroeconomics are largely
       considered bunk knowledge at this point. Economics doesn't reflect on how
       people act irrationally and economies are rigged by greedy politicians who
       manipulate the media.
     </P>
 
     <TLDR>
-      Raworth makes many compelling arguments that we need to rethink how
-      economics works and that we need to do that now. That we need to take
-      economics in hand so that we can have some hope of a future on this
-      planet. This is compulsory reading for everyone.
+      Raworth makes many compelling arguments that we need to immediately
+      rethink how economics works so that we can have some hope of a future on
+      this planet. We need to stop thinking in terms of growth and instead focus
+      on creating an economy that functions regeneratively. This is compulsory
+      reading for everyone.
     </TLDR>
   </Post>
 ));

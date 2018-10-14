@@ -161,6 +161,15 @@ export default withViews(({ views }) => (
             10 ways to accelerate progress against climate change
           </a>
         </ULI>
+
+        <ULI>
+          <a
+            href="https://www.newyorker.com/magazine/2018/10/15/how-to-write-about-a-vanishing-world"
+            target="_blank"
+          >
+            How to Write About a Vanishing World
+          </a>
+        </ULI>
       </UL>
     </FR>
   </Post>
