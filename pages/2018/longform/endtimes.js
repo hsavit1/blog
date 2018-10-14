@@ -168,7 +168,9 @@ export default withViews(({ views }) => (
             target="_blank"
           >
             How to Write About a Vanishing World
-          </a>
+          </a>{" "}
+          - Scientists chronicling ecological destruction must confront the loss
+          of their life’s work and our planet’s riches.
         </ULI>
       </UL>
     </FR>
