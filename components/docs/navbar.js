@@ -132,7 +132,7 @@ export default withRouter(({ isMobile, router }) => {
                   </div>
                 </div>
                 <div className="links mute dropdown">
-                  {/* <Link href="/problems">
+                  <Link href="/problems">
                     <a
                       className={classNames({
                         selected: route.startsWith('/docs')
@@ -140,9 +140,9 @@ export default withRouter(({ isMobile, router }) => {
                       title="Documentation"
                       role="button"
                     >
-                      Docs
+                      List of Human Bullshit that is Killing our Planet
                     </a>
-                  </Link> */}
+                  </Link>
                   {/* <Link href="/learn">
                     <a
                       className={classNames({
@@ -283,7 +283,7 @@ export default withRouter(({ isMobile, router }) => {
                     title="Documentation"
                     role="button"
                   >
-                    Docs
+                    List of Human Bullshit that is Killing our Planet
                   </a>
                 </Link>
                 {/* <Link href="/learn">
