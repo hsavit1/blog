@@ -1,9 +1,12 @@
 node_modules
 .next
+.vscode
 yarn.lock
+package-lock.json
 cryptoposts_experimental.json
 posts_experiemental.json
 shortform_experimental.json
 # brave-payments-verification.txt
-# Roadmap.md 
+Roadmap.md 
+checklist.md
 gpg.asc
