@@ -4,7 +4,7 @@ node_modules
 yarn.lock
 package-lock.json
 cryptoposts_experimental.json
-posts_experiemental.json
+posts_experimental.json
 shortform_experimental.json
 # brave-payments-verification.txt
 Roadmap.md 
