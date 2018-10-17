@@ -3,10 +3,10 @@ export default ({ children }) => (
     <a href="#">{ children }</a>
     <style jsx>{`
       h1 {
-        font: 28px Helvetica Neue, Helvetica,
-          Arial, "Lucida Grande", sans-serif;
+        font: 28px Helvetica Neue;
         font-weight: 500;
         margin-bottom: 10px;
+        line-height: 38px;
       }
 
       a {

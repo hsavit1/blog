@@ -65,7 +65,7 @@ export default withViews(({ views }) => (
 			desc="Picture of the book. Click to go to the official webpage"
 			href="https://www.bitcoinandbeyond.com/"
 		>
-			<Image src="/static/cryptoassets.jpg" />
+			<Image src="/static/crypto/cryptoassets.jpg" />
 
 			<style jsx>{`
             Image {
@@ -192,7 +192,7 @@ export default withViews(({ views }) => (
 			desc="The technology hype cycle"
 			href="https://en.wikipedia.org/wiki/Hype_cycle/"
 		>
-			<Image src="/static/trough-of-dis.png" />
+			<Image src="/crypto/trough-of-dis.png" />
 		</Figure>
 
 		<P>
@@ -471,7 +471,7 @@ export default withViews(({ views }) => (
 			desc="This is the 'Crypto J-Curve' - something that the author had mentioned in a blog post, and is a phenomenon that has consistently described the price graphs of crypto. A typical crypto graph could contain a few J-curves."
 			href="https://medium.com/@cburniske/the-crypto-j-curve-be5fdddafa26"
 		>
-			<Image src="/static/j-curve.png" />
+			<Image src="/static/crypto/j-curve.png" />
 		</Figure>
 
 		<Section>

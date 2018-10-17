@@ -47,7 +47,7 @@ const Book = ({ id, date, title, image }) => (
 			href={`/${new Date(date).getFullYear()}/bookshelf/${id}`}
 		>
 			<a>
-				<Image src={image} className="image" />
+				<Image src={image} type={"books"} className="image" />
 			</a>
 		</Link>
 

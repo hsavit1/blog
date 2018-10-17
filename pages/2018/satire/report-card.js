@@ -24,7 +24,7 @@ export default withViews(({ views }) => (
 		<Meta date="January 18th, 2018" views={views} />
 
         <Figure desc="Photograph by Chris Kleponis / Getty">
-            <Image src="/static/stable-genius.jpg" />
+            <Image src="/static/satire/stable-genius.jpg" />
         </Figure>
 
         <P>

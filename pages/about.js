@@ -12,11 +12,13 @@ export default () => (
 		<div className="about">
 			<TITLE>About</TITLE>
 
-			<SUBTITLE>Behold, my Webpage</SUBTITLE>
+			<SUBTITLE>
+				I will make you a less shitty human, if you let me.
+			</SUBTITLE>
 
 			<P>
-				Hey you! Yeah you. You know who I'm talking to. The one looking
-				at the screen!
+				I made this site to open up my mind to you, the humble and
+				inquisitive reader. You'll be glad that you came to visit.
 			</P>
 
 			<P>
@@ -29,9 +31,11 @@ export default () => (
 			<P>
 				You might as well check out some of my essays. Maybe you’ll find
 				something useful about our complicated relationship with
-				technology. Maybe you'll even learn something. Or maybe it'll
-				take you to a dark, dark, dark place. You'll just have to read
-				to find out.
+				technology, or about the some existential crises that we face in
+				the anthropocene. Maybe you'll even learn something. Or maybe
+				it'll take you to a dark, dark, dark place and you'll find
+				yourself in a basement huddled into a ball overwhelmed with
+				fear. You'll just have to read to find out.
 			</P>
 
 			<P>
@@ -52,10 +56,8 @@ export default () => (
 
 			<P>
 				Zooming out of the world of crypto politics is the world of real
-				politics, where things have just turned so insane that satire
-				has become my preferred method of confronting it. There are
-				probably more productive ways, but this seems to make the most
-				sense right now.
+				politics, where things have just turned so insane that
+				satire has become a coping mechanism for me.
 			</P>
 
 			<P>
@@ -63,8 +65,8 @@ export default () => (
 				reflections on things that I've read. Books are entry points for
 				pitches of real ideas. Discussion needs to continue outside of
 				the text if these ideas are to have any legs. I don't get to
-				review all of the books that I read, but I try to review the
-				ones that I find the most thought provoking.
+				review all of the books that I read, but I try to elucidate on
+				the ones that I find the most thought provoking.
 			</P>
 
 			<P>

@@ -86,7 +86,7 @@ export default withViews(({ views }) => (
 			href="https://blog.zeppelin.solutions/thin-protocols-cc872258379f"
 			desc="As an example, here's a diagram of the evolution of Linux distros. The Red Hat branch of the Linux evolutionary tree has produced a much different platform than the Debian branch. This all happened because Linux was made open source."
 		>
-			<Image src="/static/linux_distro_timeline.png" />
+			<Image src="/static/crypto/linux_distro_timeline.png" />
 		</Figure>
 		<P>
 			Forks happen for a variety of reasons. In the case of Bitcoin Cash,
@@ -132,7 +132,7 @@ export default withViews(({ views }) => (
 			href="https://blog.zeppelin.solutions/thin-protocols-cc872258379f"
 			desc="A better visual for how the thin protocol stack will look vs. the idea of a fat protocol."
 		>
-			<Image src="/static/thin_protocol_stack.png" />
+			<Image src="/static/crypto/thin_protocol_stack.png" />
 		</Figure>
 		<P>
 			As the protocol economy develops, there will be more and more
@@ -203,7 +203,7 @@ export default withViews(({ views }) => (
 			href="https://blog.coinfund.io/fat-protocols-are-not-an-investment-thesis-17c8837c2734"
 			desc="Protocol layer economics. What is 'above' on the stack is an application for the protocol that sits below it."
 		>
-			<Image src="/static/protocol-value.jpeg" />
+			<Image src="/static/crypto/protocol-value.jpeg" />
 		</Figure>
 		<P>
 			My prediction for blockchain development is that the biggest

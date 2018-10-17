@@ -61,9 +61,9 @@ export default ({ desc, href, children, wide }) => (
 	</div>
 );
 
-const Image = ({ width, src }) => (
+const Image = ({ width, src, type }) => (
 	<div className="grow">
-		<img width={width} src={`/static/${src}`} />
+		<img width={width} src={`/static/${type}/${src}`} />
 		<style jsx>{`
 			img {
 				width: 160px;
