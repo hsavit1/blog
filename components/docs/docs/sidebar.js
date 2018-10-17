@@ -242,7 +242,7 @@ export default class Sidebar extends PureComponent {
                       lineHeight: '1rem'
                     }}
                   >
-                    {/* <ArrowRight /> */}
+                    {/* <ArrowRight /> is this something that I should add back in? */}
                   </span>
                   {currentTitle}
                 </Container>
