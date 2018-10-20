@@ -94,7 +94,7 @@ export default () => (
         the friendly thing and send me a donation through{" "}
         <a
           target="_blank"
-          href="https://brave.com/faq-payments/#what-is-brave-payments"
+          href="https://publishers.basicattentiontoken.org/"
         >
           Brave payments
         </a>
