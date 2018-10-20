@@ -24,10 +24,11 @@ export default () => (
       </P>
 
       <P>
-        For your pleasure, you can find my take on how humanity can strategize
-        against the very real threat of climate change, the purpose of the
-        internet in our lives, some longform musings related to the evolution of
-        cryptocurrencies, some technical stuff, and a bit of political satire.
+        For your reading pleasure, you can find my take on how humanity can
+        strategize against the very real threat of climate change, the purpose
+        of the internet in our lives, our human experience of time itself, some
+        musings on the evolution of cryptocurrencies, and a sprinkle of political
+        satire.
       </P>
 
       <P>
@@ -39,8 +40,8 @@ export default () => (
         with technology, or about the some existential crises that we face in
         the age of the anthropocene. Maybe you'll even learn something. Or maybe
         it'll take you to a dark, dark, dark place and you'll find yourself in a
-        basement huddled into a ball overwhelmed with fear. If you read what I
-        have, I will change the way you see.
+        basement huddled into a ball overwhelmed with fear. Give me a chance,
+        and I will change the way you see.
       </P>
 
       <P>
@@ -79,13 +80,13 @@ export default () => (
         <a target="_blank" href="https://github.com/hsavit1/blog">
           Github
         </a>
-        . It's built Next.js and hosted with Zeit. The design is
-        minimalist for a reason - I want you to focus on the content. As a
-        bonus, the pages render pretty fast.
+        . It's built Next.js and hosted with Zeit. The design is minimalist for
+        a reason - I want you to focus on the content. As a bonus, the pages
+        render pretty fast.
       </P>
 
       <P>
-        If you like what you see, for now, you can message me on{" "}
+        If you like what you see, for now, contact me on{" "}
         <a target="_blank" href="https://twitter.com/cantbemorewrong">
           Twitter
         </a>

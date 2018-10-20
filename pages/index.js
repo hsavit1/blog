@@ -23,13 +23,18 @@ export default () => (
       <div className="moon" />
       <div className="stars" />
 
- {/* <h3>Calling all people - Protect this Rock!</h3> */}
+      {/* <h3>Calling all people - Protect this Rock!</h3> */}
       <Link href="/problems">
-        <a className="protect"><h3>Calling all people - Protect this Rock!</h3></a>
+        <a className="protect">
+          <h3>Calling all people - Protect this Rock!</h3>
+        </a>
       </Link>
 
       <div className="main">
         <nav>
+          <Link prefetch href="/about">
+            <a className="side">About</a>
+          </Link>
           <Link prefetch href="/longform">
             <a className="side">Essays</a>
           </Link>
@@ -41,9 +46,6 @@ export default () => (
           </Link>
           <Link prefetch href="/cryptos">
             <a className="side">Crypto</a>
-          </Link>
-          <Link prefetch href="/about">
-            <a className="side">About</a>
           </Link>
         </nav>
       </div>
