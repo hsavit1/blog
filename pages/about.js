@@ -13,21 +13,21 @@ export default () => (
     <div className="about">
       <TITLE>About</TITLE>
 
-      <SUBTITLE>I will make your existence better, if you let me.</SUBTITLE>
+      <SUBTITLE>I will show you enlightenment, if you let me.</SUBTITLE>
 
       <P>
-        This site is my way of opening my mind to you, dear reader. By doing so
-        you will become inspired and you will leave better clarity about what it
-        means to live on this floating rock than you've had before. This isn't
-        your typical thought dump shit blog or lame professional site. You'll
-        actually be glad that you came to visit.
+        This site is my way of opening my mind to you, dear reader. What you see
+        will inspire you, and you will leave better clarity about what it means
+        to live on this floating rock than you've experienced before. This isn't
+        your typical professional shit blog. You'll actually be glad that you
+        came to visit.
       </P>
 
       <P>
-        For your pleasure, you'll find my take on the purpose of the
-        internet, how humanity can strategize against the very real threat of climate
-        change, some longform musings related to the evolution of
-        cryptocurrencies, some technical stuff, and some satire.
+        For your pleasure, you can find my take on how humanity can strategize
+        against the very real threat of climate change, the purpose of the
+        internet in our lives, some longform musings related to the evolution of
+        cryptocurrencies, some technical stuff, and a bit of political satire.
       </P>
 
       <P>
@@ -63,11 +63,15 @@ export default () => (
       </P> */}
 
       <P>
-        There's also a bookshelf section where you can find some reflections on
-        things that I've read. Books are entry points for pitches of real ideas.
-        Discussion needs to continue outside of the text if these ideas are to
-        have any legs. I don't get to analyze all of the books that I read, but
-        I try to elucidate on the ones that I find the most galvanizing.
+        There's also a{" "}
+        <Link prefetch href="/bookshelf">
+          <a className="side">Bookshelf</a>
+        </Link>{" "}
+        section where you can find some reflections on things that I've read.
+        Books are entry points for pitches of real ideas. Discussion needs to
+        continue outside of the text if these ideas are to have any legs. I
+        don't get to analyze all of the books that I read, but I try to
+        elucidate on the ones that I find the most galvanizing.
       </P>
 
       <P>
@@ -75,7 +79,7 @@ export default () => (
         <a target="_blank" href="https://github.com/hsavit1/blog">
           Github
         </a>
-        . It's built with React and Next.js and hosted with Zeit. The design is
+        . It's built Next.js and hosted with Zeit. The design is
         minimalist for a reason - I want you to focus on the content. As a
         bonus, the pages render pretty fast.
       </P>
