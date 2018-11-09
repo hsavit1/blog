@@ -3,5 +3,6 @@
       "cloud": "v3"
     },
     "type": "npm",
-    "name": "savits-blog"
+    "name": "savits-blog",
+    "version": 2
   }
