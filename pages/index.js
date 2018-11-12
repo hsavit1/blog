@@ -23,10 +23,9 @@ export default () => (
       <div className="moon" />
       <div className="stars" />
 
-      {/* <h3>Calling all people - Protect this Rock!</h3> */}
       <Link href="/problems">
         <a className="protect">
-          <h3>Calling all people - Protect this Rock!</h3>
+          <h3>Cut the Bullshit. Protect this Rock!</h3>
         </a>
       </Link>
 
@@ -130,8 +129,8 @@ export default () => (
       }
 
       .moon {
-        height: 20px;
-        width: 20px;
+        height: 40px;
+        width: 40px;
         border-radius: 50%;
         position: absolute;
         background-color: #a5a5a5;
@@ -142,27 +141,27 @@ export default () => (
         transform: translate(-50%, -50%);
         overflow: auto;
         z-index: 10;
-        box-shadow: inset -3px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: inset -4.5px 0 rgba(0, 0, 0, 0.2);
         -webkit-animation: moonOrbit ease-in-out 15s infinite;
         animation: moonOrbit ease-in-out 15s infinite;
       }
 
       .moon:after {
         content: "";
-        height: 5px;
-        width: 5px;
+        height: 10.5px;
+        width: 10.5px;
         border-radius: 50%;
         background: gray;
         position: absolute;
-        top: 8px;
-        left: 10px;
-        box-shadow: -4px 3px 0 -1px gray, 4px 2px 0 -1px gray,
-          -2px -6px 0 -1px gray;
+        top: 12px;
+        left: 17px;
+        box-shadow: -4px 4.5px 0 -1.5px gray, 6px 3.5px 0 -1.5px gray,
+          -3px -9px 0 -1.5px gray;
       }
 
       .stars {
-        height: 10px;
-        width: 10px;
+        height: 14px;
+        width: 14px;
         border-radius: 50%;
         position: absolute;
         background-color: white;
@@ -191,17 +190,6 @@ export default () => (
           600px 550px 0 -3px white, -400px 225px 0 1px white,
           -250px -515px 0 -2px white, -310px -170px 0 -4px white,
           -340px -275px 0 -4px white, -510px -305px 0 -5px white;
-      }
-
-      .inspiration {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        color: white;
-        font-size: 10px;
-      }
-      .inspiration a {
-        color: white;
       }
 
       @-webkit-keyframes rotateElement {
