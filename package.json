@@ -3,8 +3,8 @@
   "description": "savits-blog.com",
   "dependencies": {
     "@mapbox/rehype-prism": "^0.3.0",
-    "@mdx-js/mdx": "^0.16.0",
-    "@mdx-js/tag": "^0.16.0",
+    "@mdx-js/mdx": "^0.16.3",
+    "@mdx-js/tag": "^0.16.1",
     "@zeit/next-bundle-analyzer": "^0.1.2",
     "@zeit/next-mdx": "^1.2.0",
     "babel-plugin-module-resolver": "^3.1.1",
@@ -19,7 +19,7 @@
     "next": "7.0.2",
     "next-compose-plugins": "^2.1.1",
     "next-optimized-images": "^1.4.1",
-    "now": "12.0.1",
+    "now": "12.1.5",
     "nprogress": "^0.2.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
@@ -45,6 +45,6 @@
     "start": "NODE_ENV=production node server"
   },
   "devDependencies": {
-    "webpack": "^4.20.2"
+    "webpack": "^4.26.0"
   }
 }

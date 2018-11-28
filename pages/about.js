@@ -16,19 +16,20 @@ export default () => (
       <SUBTITLE>I will show you enlightenment, if you let me.</SUBTITLE>
 
       <P>
-        This site is my way of opening my mind to you, dear reader. What you see
-        will inspire you, and you will leave better clarity about what it means
-        to live on this floating rock than you've experienced before. This isn't
-        your typical professional shit blog. You'll actually be glad that you
-        came to visit.
+        This site is my way of opening my mind to you, reader. What you see will
+        inspire you, and you will leave better clarity about what it means to
+        live on this floating rock than you've experienced before. I want to
+        light a fire under your ass that will thrust you back into the world. This
+        isn't your typical professional shit blog. You'll actually be glad that
+        you came to visit.
       </P>
 
       <P>
         For your reading pleasure, you can find my take on how humanity can
         strategize against the very real threat of climate change, the purpose
         of the internet in our lives, our human experience of time itself, some
-        musings on the evolution of cryptocurrencies, and a sprinkle of political
-        satire.
+        musings on the evolution of cryptocurrencies, and a sprinkle of
+        political satire.
       </P>
 
       <P>
@@ -92,10 +93,7 @@ export default () => (
         </a>
         . And if you really like what you see and want to support my writing, do
         the friendly thing and send me a donation through{" "}
-        <a
-          target="_blank"
-          href="https://publishers.basicattentiontoken.org/"
-        >
+        <a target="_blank" href="https://publishers.basicattentiontoken.org/">
           Brave payments
         </a>
         .

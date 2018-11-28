@@ -1,64 +1,70 @@
 {
-	"books": [
-		{
-			"id": "donut-economics",
-			"date": "October 13, 2018",
-			"title": "Donut Economics",
-			"image": "donut-economics.jpg"
-		},
-		{
-			"id": "dumbfuckistan",
-			"date": "October 13, 2018",
-			"title": "Welcome to Dumbfuckistan",
-			"image": "dumbfuckistan.jpg"
-		},
-		{
-			"id": "the-death-of-truth",
-			"date": "July 28, 2018",
-			"title": "The Death of Truth",
-			"image": "the_death_of_truth.jpg"
-		},
-		{
-			"id": "the-order-of-time",
-			"date": "July 24, 2018",
-			"title": "On the Order of Time",
-			"image": "the_order_of_time.jpg"
-		},
-		{
-			"id": "how-to-change-your-mind",
-			"date": "June 30, 2018",
-			"title": "How to Change Your Mind",
-			"image": "how_to_change_your_mind.jpg"
-		},
-		{
-			"id": "reality-is-not-what-it-seems",
-			"date": "June 21, 2018",
-			"title": "Reality is Not What it Seems",
-			"image": "reality_is_not_what_it_seems.jpg"
-		},
-		{
-			"id": "no-is-not-enough",
-			"date": "December 12, 2017",
-			"title": "No is not enough",
-			"image": "no-is-not-enough.png"
-		},
-		{
-			"id": "the-violence-of-org-forgetting",
-			"date": "December 10, 2017",
-			"title": "The Violence of Organized Forgetting",
-			"image": "the_violence_of_org_forgetting.jpg"
-		},
-		{
-			"id": "america-at-war-with-itself",
-			"date": "November 11, 2017",
-			"title": "America at War with Itself",
-			"image": "america-at-war-with-itself.jpg"
-		},
-		{
-			"id": "the-responsibility-of-intellectuals",
-			"date": "November 8, 2017",
-			"title": "The Responsibility of Intellectuals",
-			"image": "responsibility-of-intellectuals.jpg"
-		}
-	]
+  "books": [
+    {
+      "id": "lost-connections",
+      "date": "November 23, 2018",
+      "title": "Lost Connections: Unlocking the Real Causes of Depression and the Unexpected Solutions",
+      "image": "lost-connections.jpg"
+    },
+    {
+      "id": "donut-economics",
+      "date": "October 13, 2018",
+      "title": "Donut Economics",
+      "image": "donut-economics.jpg"
+    },
+    {
+      "id": "dumbfuckistan",
+      "date": "October 13, 2018",
+      "title": "Welcome to Dumbfuckistan",
+      "image": "dumbfuckistan.jpg"
+    },
+    {
+      "id": "the-death-of-truth",
+      "date": "July 28, 2018",
+      "title": "The Death of Truth",
+      "image": "the_death_of_truth.jpg"
+    },
+    {
+      "id": "the-order-of-time",
+      "date": "July 24, 2018",
+      "title": "On the Order of Time",
+      "image": "the_order_of_time.jpg"
+    },
+    {
+      "id": "how-to-change-your-mind",
+      "date": "June 30, 2018",
+      "title": "How to Change Your Mind",
+      "image": "how_to_change_your_mind.jpg"
+    },
+    {
+      "id": "reality-is-not-what-it-seems",
+      "date": "June 21, 2018",
+      "title": "Reality is Not What it Seems",
+      "image": "reality_is_not_what_it_seems.jpg"
+    },
+    {
+      "id": "no-is-not-enough",
+      "date": "December 12, 2017",
+      "title": "No is not enough",
+      "image": "no-is-not-enough.png"
+    },
+    {
+      "id": "the-violence-of-org-forgetting",
+      "date": "December 10, 2017",
+      "title": "The Violence of Organized Forgetting",
+      "image": "the_violence_of_org_forgetting.jpg"
+    },
+    {
+      "id": "america-at-war-with-itself",
+      "date": "November 11, 2017",
+      "title": "America at War with Itself",
+      "image": "america-at-war-with-itself.jpg"
+    },
+    {
+      "id": "the-responsibility-of-intellectuals",
+      "date": "November 8, 2017",
+      "title": "The Responsibility of Intellectuals",
+      "image": "responsibility-of-intellectuals.jpg"
+    }
+  ]
 }
