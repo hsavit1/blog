@@ -17,10 +17,10 @@ export default () => (
 
 			<P>
 				This site is my way of opening a bit of my mind to you. I'm
-				trying to develop and sense of clarity about what it means to
-				live on this floating rock. What you see will hopefully inspire
+				trying to develop a sense of clarity about what it means to
+				live and be alive on this floating rock. What you see will hopefully inspire
 				you and thrust you back into the world with a fire under your
-				butt. This isn't your typical professional shit blog. You'll
+				butt. Spoiler: This isn't your typical professional shit blog. You'll
 				actually be glad that you came to visit.
 			</P>
 
