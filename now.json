@@ -1,7 +1,4 @@
 {
-    "features": {
-      "cloud": "v3"
-    },
-    "type": "npm",
-    "name": "savits-blog"
-  }
+	"type": "npm",
+	"name": "savits-blog"
+}

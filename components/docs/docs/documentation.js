@@ -155,7 +155,6 @@ export default class Documentation extends Component {
 
                   .documentation__content {
                     width: 100%;
-                    max-width: 600px;
                   }
 
                   // CSS only media query for mobile + SSR

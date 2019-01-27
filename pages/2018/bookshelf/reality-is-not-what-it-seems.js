@@ -20,7 +20,7 @@ export default withViews(({ views }) => (
 		<Subtitle>Author: Carlo Rovelli</Subtitle>
 
 		<P>
-			The subject matter dicussed in this book is really dense - Rovelli
+			The subject matter discussed in this book is really dense - Rovelli
 			writes about the <b>ultimate</b> question in physics right now - the
 			grand unifying question. What is the relation between quantum
 			mechanics and gravity? This is what all of the knowledge we have in

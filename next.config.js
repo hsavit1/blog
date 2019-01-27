@@ -93,41 +93,6 @@ var config = {
 
     return config;
   }
-  //   exportPathMap(defaultPathMap, { dev, dir, outDir }) {
-  //     // for (const route of Object.keys(showcaseMapping)) {
-  //     //   defaultPathMap[`/showcase/${route}`] = {
-  //     //     page: '/showcase',
-  //     //     query: { item: route, from: 'url' }
-  //     //   };
-  //     // }
-
-  //     if (!dev) {
-  //       const generateRSS = require('./.next/server/scripts/build-rss.js')
-  //         .default;
-  //       generateRSS(outDir);
-  //     }
-
-  //     return defaultPathMap;
-  //   }
 };
-
-// if (process.env.BUNDLE_ANALYZE) {
-//   const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
-//   config = withBundleAnalyzer({
-//     analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
-//     analyzeBrowser: ['browser', 'both'].includes(process.env.BUNDLE_ANALYZE),
-//     bundleAnalyzerConfig: {
-//       server: {
-//         analyzerMode: 'static',
-//         reportFilename: '../../bundles/server.html'
-//       },
-//       browser: {
-//         analyzerMode: 'static',
-//         reportFilename: '../bundles/client.html'
-//       }
-//     },
-//     ...config
-//   });
-// }
 
 module.exports = withGitHubMDX(withMDX(config)); //TODO: Also export the images optimizer

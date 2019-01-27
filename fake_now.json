@@ -1,0 +1,9 @@
+{
+	"features": {
+		"cloud": "v3"
+	},
+	"type": "docker",
+	"name": "savits-blog",
+	"version": 2,
+	"builds": [{ "src": "*.js", "use": "@now/node" }]
+}

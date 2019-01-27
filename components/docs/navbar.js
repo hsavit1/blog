@@ -140,7 +140,7 @@ export default withRouter(({ isMobile, router }) => {
                       title="Documentation"
                       role="button"
                     >
-                      List of Human Bullshit that is Killing our Planet
+                      List of Human Bullshit that is Killing Life On Our Planet
                     </a>
                   </Link>
                   {/* <Link href="/learn">
@@ -283,7 +283,7 @@ export default withRouter(({ isMobile, router }) => {
                     title="Documentation"
                     role="button"
                   >
-                    List of Human Bullshit that is Killing our Planet
+                    List of Human Bullshit that is Killing Life On Our Planet
                   </a>
                 </Link>
                 {/* <Link href="/learn">
