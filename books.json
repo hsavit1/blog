@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "id": "the-uninhabitable-earth",
+      "date": "March 23, 2019",
+      "title": "The Uninhabitable Earth - Life After Warming",
+      "image": "the-uninhabitable-earth.jpg"
+    },
+    {
       "id": "lost-connections",
       "date": "November 23, 2018",
       "title": "Lost Connections: Unlocking the Real Causes of Depression and the Unexpected Solutions",

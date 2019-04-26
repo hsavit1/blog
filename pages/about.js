@@ -13,15 +13,14 @@ export default () => (
 		<div className="about">
 			<TITLE>About</TITLE>
 
-			<SUBTITLE>I will show you enlightenment, if you let me.</SUBTITLE>
+			<SUBTITLE>Let me show you stuff.</SUBTITLE>
 
 			<P>
 				This site is my way of opening a bit of my mind to you. I'm
 				trying to develop a sense of clarity about what it means to
 				live and be alive on this floating rock. What you see will hopefully inspire
 				you and thrust you back into the world with a fire under your
-				butt. Spoiler: This isn't your typical professional shit blog. You'll
-				actually be glad that you came to visit.
+				butt. Spoiler: This isn't your typical professional shit-blog.
 			</P>
 
 			<P>
