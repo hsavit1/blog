@@ -299,12 +299,12 @@ export default class Sidebar extends PureComponent {
               }
             `}</style>
           </div>
-          <style jsx global>{`
+          {/* <style jsx global>{`
             :global(.target.docs-anchor-target) {
               margin-top: -208px;
               padding-top: 208px;
             }
-          `}</style>
+          `}</style> */}
         </>
       );
     }
