@@ -19,7 +19,7 @@
     "next": "^8.1",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.3",
-    "now": "15.6.2",
+    "now": "15.6.1",
     "nprogress": "^0.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -41,7 +41,7 @@
   ],
   "scripts": {
     "dev": "next",
-    "now-build": "next build && next export -o dist"
+    "now-build": "next build"
   },
   "devDependencies": {
     "webpack": "^4.26.0"
