@@ -10,7 +10,7 @@
     "babel-plugin-module-resolver": "^3.2.0",
     "classnames": "^2.2.6",
     "comma-number": "^2.0.1",
-    "firebase": "4.3.0",
+    "firebase": "10.9.0",
     "github-slugger": "1.2.0",
     "global": "^4.3.2",
     "intersection-observer": "^0.5.0",
